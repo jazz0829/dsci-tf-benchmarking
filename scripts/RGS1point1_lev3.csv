@@ -1,0 +1,1150 @@
+Referentiecode	Referentienummer	Omschrijving	D/C	Niveau	ReferentieOmslagcode	
+B				1		
+W				1		
+BIva		IMMATERIËLE VASTE ACTIVA	D	2		
+BMva		MATERIËLE VASTE ACTIVA	D	2		
+BFva		FINANCIËLE VASTE ACTIVA	D	2		
+BEff		EFFECTEN	D	2		
+BEiv		EIGEN VERMOGEN	C	2		
+BVrz		VOORZIENINGEN	C	2		
+BLas		LANGLOPENDE SCHULDEN	C	2		
+BLim		LIQUIDE MIDDELEN	D	2		
+BVor		VORDERINGEN	D	2		
+BSch		KORTLOPENDE SCHULDEN	C	2		
+BVrd		VOORRADEN	D	2		
+BPro		PROJECTEN	D	2		
+WPer		PERSONEELSKOSTEN	D	2		
+WAfs		AFSCHRIJVINGEN	D	2		
+WBed		OVERIGE BEDRIJFSKOSTEN	D	2		
+WKpr		INKOOPWAARDE VAN DE OMZET	D	2		
+WOmz		OMZET	C	2		
+WWiv		WIJZIGING VOORRADEN	D	2		
+WOvb		OVERIGE BEDRIJFSOPBRENGSTEN	C	2		
+WVhe		VRIJVAL HERWAARDERINGSRESERVE EN EGALISATIEREKENINGEN	C	2		
+WFbe		FINANCIËLE BATEN EN LASTEN	C	2		
+WBbe		BUITENGEWONE BATEN EN LASTEN	C	2		
+WAad		AANDEEL DERDEN	D	2		
+WBel		BELASTINGEN	D	2		
+WNer		NETTO RESULTAAT	C	2		
+BIvaKou	0101000	Kosten van oprichting en van uitgifte van aandelen	D	3		
+BIvaKoo	0102000	Kosten van onderzoek en ontwikkeling	D	3		
+BIvaSof	0103000	Software	D	3		
+BIvaOie	0104000	Overig intellectueel eigendom	D	3		
+BIvaBou	0105000	Bouwclaims	D	3		
+BIvaCev	0106000	Concessies en vergunningen	D	3		
+BIvaGoo	0107000	Goodwill	D	3		
+BIvaGue	0108000	Goodwill uit eerdere overnames	D	3		
+BIvaVoi	0109000	Vooruitbetaald op immateriële vaste activa	D	3		
+BIvaOiv	0110000	Overige immateriële vaste activa	D	3		
+BMvaTer	0201000	Terreinen	D	3		
+BMvaBeg	0202000	Bedrijfsgebouwen	D	3		
+BMvaVer	0203000	Verbouwingen	D	3		
+BMvaVio	0204000	Vastgoed in ontwikkeling bestemd voor eigen exploitatie	D	3		
+BMvaSvi	0205000	Sociaal vastgoed in exploitatie	D	3		
+BMvaCvi	0206000	Commercieel vastgoed in exploitatie	D	3		
+BMvaOzv	0207000	Onroerende zaken verkocht onder voorwaarden	D	3		
+BMvaOvg	0208000	Overige vastgoedbeleggingen	D	3		
+BMvaHuu	0209000	Huurdersinvesteringen	D	3		
+BMvaMei	0210000	Machines en installaties	D	3		
+BMvaVli	0211000	Vliegtuigen	D	3		
+BMvaSch	0212000	Schepen	D	3		
+BMvaTev	0213000	Transport- en vervoermiddelen	D	3		
+BMvaObe	0214000	Overige vaste bedrijfsmiddelen	D	3		
+BMvaBei	0215000	Bedrijfsinventaris	D	3		
+BMvaVbi	0216000	Vaste bedrijfsmiddelen in uitvoering en vooruitbetaald op materiële vaste activa 	D	3		
+BMvaNad	0217000	Niet aan de bedrijfsuitoefening dienstbaar	D	3		
+BMvaOmv	0218000	Overige materiële vaste activa	D	3		
+BFvaDig	0301000	Deelnemingen in groepsmaatschappijen	D	3		
+BFvaDio	0302000	Deelnemingen in overige verbonden maatschappijen	D	3		
+BFvaAnd	0303000	Andere deelnemingen	D	3		
+BFvaOve	0304000	Overige effecten	D	3		
+BFvaVog	0305000	Vorderingen op groepsmaatschappijen	D	3		
+BFvaVop	0306000	Vorderingen op participanten en op maatschappijen waarin wordt deelgenomen	D	3		
+BFvaVov	0307000	Vorderingen op overige verbonden maatschappijen	D	3		
+BFvaLbv	0308000	Latente belastingvorderingen	D	3		
+BFvaOvr	0309000	Overige vorderingen	D	3		
+BEffAan	0401000	Aandelen	D	3		
+BEffObl	0402000	Obligaties	D	3		
+BEffOve	0403000	Overige effecten	D	3		
+BEivGok	0501000	Gestort en opgevraagd kapitaal	C	3		
+BEivAgi	0502000	Agioreserves	C	3		
+BEivHer	0503000	Herwaarderingsreserves	C	3		
+BEivWer	0504000	Wettelijke reserves	C	3		
+BEivStr	0505000	Statutaire reserves	C	3		
+BEivOre	0506000	Overige reserves	C	3		
+BEivFon	0507000	Fondsen	C	3		
+BEivAvd	0508000	Aandeel van derden	C	3		
+BEivKap	0509000	Kapitaal	C	3		
+BEivFir	0510000	Fiscale reserves	C	3		
+BVrzVvp	0701000	Voorziening voor pensioenen	C	3		
+BVrzVvb	0702000	Voorziening voor belastingen	C	3		
+BVrzVgo	0703000	Voorziening groot onderhoud	C	3		
+BVrzOvz	0704000	Overige voorzieningen	C	3		
+BVrzNeg	0705000	Negatieve goodwill	C	3		
+BLasAcl	0801000	Achtergestelde leningen	C	3		
+BLasCol	0802000	Converteerbare leningen	C	3		
+BLasAoe	0803000	Andere obligaties en onderhandse leningen	C	3		
+BLasFlv	0804000	Financiële lease verplichtingen	C	3		
+BLasSak	0805000	Schulden aan kredietinstellingen	C	3		
+BLasOls	0806000	Overige langlopende schulden	C	3		
+BLimKas	1001000	Kassen	D	3		
+BLimBan	1002000	Bankrekeningen	D	3		
+BLimKru	1003000	Kruisposten	D	3		
+BVorDeb	1101000	Debiteuren	D	3		
+BVorBtw	1102000	Omzetbelasting	C	3		
+BVorOvr	1103000	Overige vorderingen	D	3		
+BVorOva	1104000	Overlopende activa	D	3		
+BSchKol	1201000	Kortlopende leningen	C	3		
+BSchSav	1202000	Schulden aan verbonden partijen	C	3		
+BSchCre	1203000	Crediteuren	C	3		
+BSchSal	1204000	Salarisverwerking	C	3		
+BSchBtw	1205000	Omzetbelasting	C	3		
+BSchLhe	1206000	Loonheffing	C	3		
+BSchVpb	1207000	Vennootschapsbelasting	C	3		
+BSchOvb	1208000	Overige belastingen	C	3		
+BSchOvs	1209000	Overige schulden	C	3		
+BSchOpa	1210000	Overlopende passiva	C	3		
+BVrdHan	3001000	Handelsgoederen	D	3		
+BVrdGeh	3002000	Grond- en hulpstoffen	D	3		
+BVrdEmb	3003000	Emballage	D	3		
+BVrdVrv	3004000	Vooruitbetaald op voorraden	D	3		
+BVrdOwe	3101000	Onderhanden werken	D	3		
+BVrdHal	3102000	Halffabrikaten	D	3		
+BVrdGep	3103000	Gereed product	D	3		
+BVrdVas	3104000	Vastgoed	D	3		
+BProOnp	3501000	Onderhanden projecten	D	3		
+WPerLes	4001000	Lonen en salarissen	D	3		
+WPerSol	4002000	Sociale lasten	D	3		
+WPerPen	4003000	Pensioenlasten	D	3		
+WPerWkf	4004000	Werkkosten vrije ruimte	D	3		
+WPerWkn	4005000	Werkkosten met nihilwaardering	D	3		
+WPerWkg	4006000	Werkkosten gericht vrijgesteld	D	3		
+WPerWkc	4007000	Werkkosten noodzakelijkheidscriterium	D	3		
+WPerWki	4008000	Werkkosten intermediair	D	3		
+WPerWkb	4009000	Werkkosten belast loon	D	3		
+WPerWkv	4010000	Werkkosten geen of vrijgesteld loon	D	3		
+WPerWko	4011000	Werkkosten overig	C	3		
+WPerOvp	4012000	Overige personeelskosten	D	3		
+WAfsAiv	4101000	Afschrijvingen immateriële vaste activa	D	3		
+WAfsAmv	4102000	Afschrijvingen materiële vaste activa	D	3		
+WAfsOwi	4103000	Overige waardeveranderingen immateriële vaste activa	D	3		
+WAfsOwm	4104000	Overige waardeveranderingen materiële vaste activa	D	3		
+WAfsRvi	4105000	Resultaat verkoop immateriële vaste activa	C	3		
+WAfsRvm	4106000	Resultaat verkoop materiële vaste activa	C	3		
+WAfsDae	4199000	Doorberekende afschrijvingen en waardeveranderingen	C	3		
+WBedHui	4201000	Huisvestingskosten	D	3		
+WBedEem	4202000	Exploitatie- en machinekosten	D	3		
+WBedVkk	4203000	Verkoopkosten	D	3		
+WBedAut	4204000	Autokosten	D	3		
+WBedTra	4205000	Transportkosten	D	3		
+WBedKan	4206000	Kantoorkosten	D	3		
+WBedOrg	4207000	Organisatiekosten	D	3		
+WBedAss	4208000	Assurantiekosten	D	3		
+WBedAea	4209000	Accountants- en advieskosten	D	3		
+WBedAdl	4210000	Administratieve lasten	D	3		
+WBedKof	4211000	Kosten fondsenwerving	D	3		
+WBedKse	4212000	Kosten stamrecht en lijfrentes	D	3		
+WBedDvr	4213000	Dotaties en vrijval reserves	D	3		
+WBedDvv	4214000	Dotaties en vrijval voorzieningen	D	3		
+WBedAlk	4215000	Algemene kosten	D	3		
+WBedDok	4999000	Doorberekende kosten	C	3		
+WKprKvg	7001000	Kosten van grond- en hulpstoffen	D	3		
+WKprKvp	7002000	Kosten van personeel	D	3		
+WKprKuw	7003000	Kosten uitbesteed werk en andere externe kosten	D	3		
+WKprKra	7004000	Kosten van rente en afschrijvingen	D	3		
+WKprInh	7005000	Inkoopwaarde handelsgoederen	D	3		
+WKprInp	7006000	Inkoopwaarde productiegoederen	D	3		
+WKprIeb	7007000	Inkoopkortingen en bonussen	D	3		
+WKprBtk	7008000	Betalingskortingen	D	3		
+WKprKit	7009000	Kostprijs intercompany transacties	D	3		
+WKprMuo	7010000	Mutatie omzetvorderingen	D	3		
+WKprVom	7011000	Voorraadmutatie	D	3		
+WKprPrg	7012000	Privé-gebruik goederen	C	3		
+WKprPrd	7013000	Privé-gebruik diensten	C	3		
+WOmzNop	8001000	"Netto-omzet, per opbrengstcategorie, verkoop van geproduceerde goederen"	C	3		
+WOmzNoh	8002000	"Netto-omzet, per opbrengstcategorie, verkoop van handelsgoederen"	C	3		
+WOmzNod	8003000	"Netto-omzet, per opbrengstcategorie, verlening van diensten"	C	3		
+WOmzNoo	8004000	"Netto-omzet, per opbrengstcategorie, overig"	C	3		
+WOmzOit	8005000	Omzet intercompany transacties	C	3		
+WOmzKeb	8006000	Kortingen en bonussen	C	3		
+WWivWgp	8101000	Wijziging in voorraden gereed product	D	3		
+WWivWow	8102000	Wijziging in voorraden onderhanden werk	D	3		
+WWivWop	8103000	Wijziging in onderhanden projecten in opdracht van derden	D	3		
+WWivGpv	8104000	Geactiveerde productie voor het eigen bedrijf	C	3		
+WOvbOnm	8201000	Ontvangen managementvergoeding	C	3		
+WOvbOdp	8202000	Ontvangen doorbelasting personeelskosten	C	3		
+WOvbBue	8203000	Baten uit eigen fondsenwerving	C	3		
+WOvbBug	8204000	Baten uit gezamenlijke acties	C	3		
+WOvbBua	8205000	Baten uit acties van derden	C	3		
+WOvbVez	8206000	Verzekeringsuitkeringen	C	3		
+WOvbOrs	8207000	Ontvangen restituties en subsidies	C	3		
+WOvbHuo	8208000	Huurontvangsten	C	3		
+WOvbOps	8209000	Opbrengsten servicecontracten	C	3		
+WOvbNvv	8210000	Netto verkoopresultaat vastgoedportefeuille	C	3		
+WOvbCcl	8211000	"College-, cursus-, les- en examengelden"	C	3		
+WOvbBwi	8212000	Baten werk in opdracht van derden	C	3		
+WOvbOvo	8213000	Overige opbrengsten	C	3		
+WVheVuh	8301000	Vrijval uit herwaarderingsreserve	C	3		
+WVheVeI	8302000	Vrijval egalisatierekening IPR	C	3		
+WVheVoe	8303000	Vrijval overige egalisatierekeningen	C	3		
+WFbeRof	8401000	Rente- en soortgelijke opbrengsten financiële activa	C	3		
+WFbeRlm	8402000	Rente liquide middelen	C	3		
+WFbeOrb	8403000	Overige rentebaten	C	3		
+WFbeRls	8404000	Rente- en soortgelijke lasten	D	3		
+WFbeBwv	8405000	Bijzondere waardevermindering van financiële vaste activa en vlottende activa	D	3		
+WFbeOrl	8406000	Overige rentelasten	D	3		
+WFbeWis	8407000	Wisselkoersverschillen	D	3		
+WFbeKvb	8408000	Kosten van beleggingen	D	3		
+WFbeKba	8409000	Kosten van beheer en administratie	D	3		
+WFbeRed	8410000	Resultaat deelnemingen (dividend)	C	3		
+WFbeDfb	8499000	Doorberekende financiële baten en lasten	C	3		
+WBbeBub	8501000	Buitengewone baten	C	3		
+WBbeBul	8502000	Buitengewone lasten	D	3		
+WAadRav	9001000	Resultaat aandeel van derden	D	3		
+WBelBgr	9002000	Belastingen gewoon resultaat	D	3		
+WBelBbr	9003000	Belastingen buitengewoon resultaat	D	3		
+WBelVbl	9004000	Vrijval belastinglatentie	C	3		
+WBelMfo	9005000	Mutatie fiscale oudedagsreserve	D	3		
+WNerNew	9999000	Nettoresultaat na belastingen	C	3		
+BIvaKouVvp	0101010	Verkrijgings- of vervaardigingsprijs kosten van oprichting en van uitgifte van aandelen	D	4		
+BIvaKouCae	0101020	Cumulatieve afschrijvingen en waardeverminderingen kosten van oprichting en van uitgifte van aandelen	C	4		
+BIvaKouCuh	0101030	Cumulatieve herwaarderingen kosten van oprichting en van uitgifte van aandelen	D	4		
+BIvaKooVvp	0102010	Verkrijgings- of vervaardigingsprijs kosten van onderzoek en ontwikkeling	D	4		
+BIvaKooCae	0102020	Cumulatieve afschrijvingen en waardeverminderingen kosten van onderzoek en ontwikkeling	C	4		
+BIvaKooCuh	0102030	Cumulatieve herwaarderingen kosten van onderzoek en ontwikkeling	D	4		
+BIvaSofVvp	0103010	Verkrijgings- of vervaardigingsprijs software	D	4		
+BIvaSofCae	0103020	Cumulatieve afschrijvingen en waardeverminderingen software	C	4		
+BIvaSofCuh	0103030	Cumulatieve herwaarderingen software	D	4		
+BIvaOieVvp	0104010	Verkrijgings- of vervaardigingsprijs overig intellectueel eigendom	D	4		
+BIvaOieCae	0104020	Cumulatieve afschrijvingen en waardeverminderingen overig intellectueel eigendom	C	4		
+BIvaOieCuh	0104030	Cumulatieve herwaarderingen overig intellectueel eigendom	D	4		
+BIvaBouVvp	0105010	Verkrijgings- of vervaardigingsprijs bouwclaims	D	4		
+BIvaBouCae	0105020	Cumulatieve afschrijvingen en waardeverminderingen bouwclaims	C	4		
+BIvaBouCuh	0105030	Cumulatieve herwaarderingen bouwclaims	D	4		
+BIvaCevVvp	0106010	Verkrijgings- of vervaardigingsprijs concessies en vergunningen	D	4		
+BIvaCevCae	0106020	Cumulatieve afschrijvingen en waardeverminderingen concessies en vergunningen	C	4		
+BIvaCevCuh	0106030	Cumulatieve herwaarderingen concessies en vergunningen	D	4		
+BIvaGooVvp	0107010	Verkrijgings- of vervaardigingsprijs goodwill	D	4		
+BIvaGooCae	0107020	Cumulatieve afschrijvingen en waardeverminderingen goodwill	C	4		
+BIvaGooCuh	0107030	Cumulatieve herwaarderingen goodwill	D	4		
+BIvaGueVvp	0108010	Verkrijgings- of vervaardigingsprijs goodwill uit eerdere overnames	D	4		
+BIvaGueCae	0108020	Cumulatieve afschrijvingen en waardeverminderingen goodwill uit eerdere overnames	C	4		
+BIvaGueCuh	0108030	Cumulatieve herwaarderingen goodwill uit eerdere overnames	D	4		
+BIvaVoiVvp	0109010	Verkrijgings- of vervaardigingsprijs vooruitbetaald op immateriële vaste activa	D	4		
+BIvaVoiCae	0109020	Cumulatieve afschrijvingen en waardeverminderingen vooruitbetaald op immateriële vaste activa	C	4		
+BIvaVoiCuh	0109030	Cumulatieve herwaarderingen vooruitbetaald op immateriële vaste activa	D	4		
+BIvaOivVvp	0110010	Verkrijgings- of vervaardigingsprijs overige immateriële vaste activa	D	4		
+BIvaOivCae	0110020	Cumulatieve afschrijvingen en waardeverminderingen overige immateriële vaste activa	C	4		
+BIvaOivCuh	0110030	Cumulatieve herwaarderingen overige immateriële vaste activa	D	4		
+BMvaTerVvp	0201010	Verkrijgings- of vervaardigingsprijs terreinen	D	4		
+BMvaTerCae	0201020	Cumulatieve afschrijvingen en waardeverminderingen terreinen	C	4		
+BMvaTerCuh	0201030	Cumulatieve herwaarderingen terreinen	D	4		
+BMvaBegVvp	0202010	Verkrijgings- of vervaardigingsprijs bedrijfsgebouwen	D	4		
+BMvaBegCae	0202020	Cumulatieve afschrijvingen en waardeverminderingen bedrijfsgebouwen	C	4		
+BMvaBegCuh	0202030	Cumulatieve herwaarderingen bedrijfsgebouwen	D	4		
+BMvaVerVvp	0203010	Verkrijgings- of vervaardigingsprijs verbouwingen	D	4		
+BMvaVerCae	0203020	Cumulatieve afschrijvingen en waardeverminderingen verbouwingen	C	4		
+BMvaVerCuh	0203030	Cumulatieve herwaarderingen verbouwingen	D	4		
+BMvaVioVvp	0204010	Verkrijgings- of vervaardigingsprijs vastgoed in ontwikkeling bestemd voor eigen exploitatie	D	4		
+BMvaVioCae	0204020	Cumulatieve afschrijvingen en waardeverminderingen vastgoed in ontwikkeling bestemd voor eigen exploitatie	C	4		
+BMvaVioCuh	0204030	Cumulatieve herwaarderingen vastgoed in ontwikkeling bestemd voor eigen exploitatie	D	4		
+BMvaSviVvp	0205010	Verkrijgings- of vervaardigingsprijs sociaal vastgoed in exploitatie	D	4		
+BMvaSviCae	0205020	Cumulatieve afschrijvingen en waardeverminderingen sociaal vastgoed in exploitatie	C	4		
+BMvaSviCuh	0205030	Cumulatieve herwaarderingen sociaal vastgoed in exploitatie	D	4		
+BMvaCviVvp	0206010	Verkrijgings- of vervaardigingsprijs commercieel vastgoed in exploitatie	D	4		
+BMvaCviCae	0206020	Cumulatieve afschrijvingen en waardeverminderingen commercieel vastgoed in exploitatie	C	4		
+BMvaCviCuh	0206030	Cumulatieve herwaarderingen commercieel vastgoed in exploitatie	D	4		
+BMvaOzvVvp	0207010	Verkrijgings- of vervaardigingsprijs onroerende zaken verkocht onder voorwaarden	D	4		
+BMvaOzvCae	0207020	Cumulatieve afschrijvingen en waardeverminderingen onroerende zaken verkocht onder voorwaarden	C	4		
+BMvaOzvCuh	0207030	Cumulatieve herwaarderingen onroerende zaken verkocht onder voorwaarden	D	4		
+BMvaOvgVvp	0208010	Verkrijgings- of vervaardigingsprijs overige vastgoedbeleggingen	D	4		
+BMvaOvgCae	0208020	Cumulatieve afschrijvingen en waardeverminderingen overige vastgoedbeleggingen	C	4		
+BMvaOvgCuh	0208030	Cumulatieve herwaarderingen overige vastgoedbeleggingen	D	4		
+BMvaHuuVvp	0209010	Verkrijgings- of vervaardigingsprijs huurdersinvesteringen	D	4		
+BMvaHuuCae	0209020	Cumulatieve afschrijvingen en waardeverminderingen huurdersinvesteringen	C	4		
+BMvaHuuCuh	0209030	Cumulatieve herwaarderingen huurdersinvesteringen	D	4		
+BMvaMeiVvp	0210010	Verkrijgings- of vervaardigingsprijs machines en installaties	D	4		
+BMvaMeiCae	0210020	Cumulatieve afschrijvingen en waardeverminderingen machines en installaties	C	4		
+BMvaMeiCuh	0210030	Cumulatieve herwaarderingen machines en installaties	D	4		
+BMvaVliVvp	0211010	Verkrijgings- of vervaardigingsprijs vliegtuigen	D	4		
+BMvaVliCae	0211020	Cumulatieve afschrijvingen en waardeverminderingen vliegtuigen	C	4		
+BMvaVliCuh	0211030	Cumulatieve herwaarderingen vliegtuigen	D	4		
+BMvaSchVvp	0212010	Verkrijgings- of vervaardigingsprijs schepen	D	4		
+BMvaSchCae	0212020	Cumulatieve afschrijvingen en waardeverminderingen schepen	C	4		
+BMvaSchCuh	0212030	Cumulatieve herwaarderingen schepen	D	4		
+BMvaTevVvp	0213010	Verkrijgings- of vervaardigingsprijs transport- en vervoermiddelen	D	4		
+BMvaTevCae	0213020	Cumulatieve afschrijvingen en waardeverminderingen transport- en vervoermiddelen	C	4		
+BMvaTevCuh	0213030	Cumulatieve herwaarderingen transport- en vervoermiddelen	D	4		
+BMvaObeVvp	0214010	Verkrijgings- of vervaardigingsprijs overige vaste bedrijfsmiddelen	D	4		
+BMvaObeCae	0214020	Cumulatieve afschrijvingen en waardeverminderingen overige vaste bedrijfsmiddelen	C	4		
+BMvaObeCuh	0214030	Cumulatieve herwaarderingen overige vaste bedrijfsmiddelen	D	4		
+BMvaBeiVvp	0215010	Verkrijgings- of vervaardigingsprijs bedrijfsinventaris	D	4		
+BMvaBeiCae	0215020	Cumulatieve afschrijvingen en waardeverminderingen bedrijfsinventaris	C	4		
+BMvaBeiCuh	0215030	Cumulatieve herwaarderingen bedrijfsinventaris	D	4		
+BMvaVbiVvp	0216010	Verkrijgings- of vervaardigingsprijs vaste bedrijfsmiddelen in uitvoering en vooruitbetaald op materiële vaste activa 	D	4		
+BMvaVbiCae	0216020	Cumulatieve afschrijvingen en waardeverminderingen vaste bedrijfsmiddelen in uitvoering en vooruitbetaald op materiële vaste activa 	C	4		
+BMvaVbiCuh	0216030	Cumulatieve herwaarderingen vaste bedrijfsmiddelen in uitvoering en vooruitbetaald op materiële vaste activa 	D	4		
+BMvaNadVvp	0217010	Verkrijgings- of vervaardigingsprijs niet aan de bedrijfsuitoefening dienstbaar	D	4		
+BMvaNadCae	0217020	Cumulatieve afschrijvingen en waardeverminderingen niet aan de bedrijfsuitoefening dienstbaar	C	4		
+BMvaNadCuh	0217030	Cumulatieve herwaarderingen niet aan de bedrijfsuitoefening dienstbaar	D	4		
+BMvaOmvVvp	0218010	Verkrijgings- of vervaardigingsprijs overige materiële vaste activa	D	4		
+BMvaOmvCae	0218020	Cumulatieve afschrijvingen en waardeverminderingen overige materiële vaste activa	C	4		
+BMvaOmvCuh	0218030	Cumulatieve herwaarderingen overige materiële vaste activa	D	4		
+BFvaDigNev	0301010	Netto vermogenswaarde deelnemingen in groepsmaatschappijen	D	4		
+BFvaDigCae	0301020	Cumulatieve afschrijvingen en waardeverminderingen deelnemingen in groepsmaatschappijen	C	4		
+BFvaDigCuh	0301030	Cumulatieve herwaarderingen deelnemingen in groepsmaatschappijen	D	4		
+BFvaDioKpr	0302010	Kostprijs deelnemingen in overige verbonden maatschappijen	D	4		
+BFvaDioNev	0302020	Netto vermogenswaarde deelnemingen in overige verbonden maatschappijen	D	4		
+BFvaDioCae	0302030	Cumulatieve afschrijvingen en waardeverminderingen deelnemingen in overige verbonden maatschappijen	D	4		
+BFvaDioCuh	0302040	Cumulatieve herwaarderingen deelnemingen in overige verbonden maatschappijen	D	4		
+BFvaAndKpr	0303010	Kostprijs andere deelnemingen	D	4		
+BFvaAndCae	0303020	Cumulatieve afschrijvingen en waardeverminderingen andere deelnemingen	C	4		
+BFvaAndCuh	0303030	Cumulatieve herwaarderingen andere deelnemingen	D	4		
+BFvaOveWaa	0304010	Waarde overige effecten	D	4		
+BFvaOveCuw	0304020	Cumulatieve waardeverminderingen overige effecten	C	4		
+BFvaOveCuh	0304030	Cumulatieve herwaarderingen overige effecten	D	4		
+BFvaVogVgl	0305010	Vorderingen op groepsmaatschappijen (langlopend)	D	4		
+BFvaVopVpl	0306010	Vorderingen op participanten en op maatschappijen waarin wordt deelgenomen (langlopend)	D	4		
+BFvaVovVol	0307010	Vorderingen op overige verbonden maatschappijen (langlopend)	D	4		
+BFvaLbvBll	0308010	Latente belastingvorderingen (langlopend)	D	4		
+BFvaOvrSub	0309010	Subsidievorderingen	D	4		
+BFvaOvrVob	0309020	Vorderingen op bestuurders	D	4		
+BFvaOvrOvl	0309030	Overige vorderingen (langlopend)	D	4		
+BEffAanAbe	0401010	Aandelen beursgenoteerd	D	4		
+BEffAanAnb	0401020	Aandelen niet beursgenoteerd	D	4		
+BEffOblObb	0402010	Obligaties beursgenoteerd	D	4		
+BEffOblOnb	0402020	Obligaties niet beursgenoteerd	D	4		
+BEffOveOeb	0403010	Overige effecten beursgenoteerd	D	4		
+BEffOveOen	0403020	Overige effecten niet beursgenoteerd	D	4		
+BEivGokGea	0501010	Gewone aandelen	C	4		
+BEivGokWia	0501020	Winstrechtloze aandelen	C	4		
+BEivGokZea	0501030	Zeggenschapsrechtloze aandelen	C	4		
+BEivGokPra	0501040	Preferente aandelen	C	4		
+BEivGokPri	0501050	Prioriteitsaandelen	C	4		
+BEivGokAkn	0501060	"Aandelenkapitaal, fiscaal niet erkend"	C	4		
+BEivAgiAgi	0502010	Agioreserve	C	4		
+BEivAgiAfn	0502020	"Agio, fiscaal niet erkend"	C	4		
+BEivHerHew	0503010	Herwaarderingsreserve	C	4		
+BEivWerNba	0504010	Negatieve bijschrijvingsreserve als gevolg van de omrekening van het aandelenkapitaal naar de euro	C	4		
+BEivWerRla	0504020	Reserve voor lager aandelenkapitaal als gevolg van de omrekening van het aandelenkapitaal naar de euro	C	4		
+BEivWerRvi	0504030	Reserve voor inbreng anders dan in geld	C	4		
+BEivWerRvl	0504040	Reserve voor leningen verstrekt met het oog op het verkrijgen van eigen aandelen	C	4		
+BEivWerRvg	0504050	Reserve voor geactiveerde kosten van oprichting en uitgifte van aandelen	C	4		
+BEivWerRgk	0504060	Reserve voor geactiveerde kosten van onderzoek en ontwikkeling	C	4		
+BEivWerRed	0504070	Reserve deelnemingen	C	4		
+BEivWerRvo	0504080	Reserve voor omrekeningsverschillen	C	4		
+BEivStrCon	0505010	Continuïteitsreserve	C	4		
+BEivStrBer	0505020	Bestemmingsreserve	C	4		
+BEivStrStr	0505030	Statutaire reserve	C	4		
+BEivOreOvw	0506010	Onverdeelde winst	C	4		
+BEivOreRvh	0506020	Resultaat van het boekjaar	C	4		
+BEivFonEga	0507010	Egalisatiefonds	C	4		
+BEivFonBef	0507020	Bestemmingsfonds	C	4		
+BEivAvdAvd	0508010	Aandeel van derden	C	4		
+BEivKapOnd	0509010	Ondernemingsvermogen	C	4		
+BEivKapRvh	0509020	Resultaat van het boekjaar	C	4		
+BEivKapPrs	0509030	Privé-stortingen	C	4		
+BEivKapPro	0509040	Privé-opnamen	D	4		
+BEivKapSti	0509050	Stichtingskapitaal	C	4		
+BEivKapVnk	0509060	Verenigingskapitaal	C	4		
+BEivKapCok	0509070	Commanditair kapitaal	C	4		
+BEivKapInk	0509080	Informeel kapitaal	C	4		
+BEivFirFor	0510010	Fiscale oudedagsreserve (FOR)	C	4		
+BEivFirHer	0510020	Herinvesteringsreserve	C	4		
+BEivFirOpw	0510030	Opwaarderingsreserve	C	4		
+BEivFirRae	0510040	Reserve assurantie eigen risico	C	4		
+BEivFirKeg	0510050	Kostenegalisatiereserve	C	4		
+BEivFirExp	0510060	Exportreserve	C	4		
+BEivFirRis	0510070	Risicoreserve	C	4		
+BEivFirTer	0510080	Terugkeerreserve	C	4		
+BEivFirOfr	0510090	Overige fiscale reserves	C	4		
+BVrzVvpVpd	0701010	Voorziening voor pensioenen directie in eigen beheer	C	4		
+BVrzVvpBac	0701020	Backserviceverplichting	C	4		
+BVrzVvbVlb	0702010	Voorziening voor latente belastingverplichtingen	C	4		
+BVrzVgoVvg	0703010	Voorziening voor groot onderhoud gebouwen	C	4		
+BVrzVgoVgm	0703020	Voorziening voor groot onderhoud machines en installaties	C	4		
+BVrzVgoVgt	0703030	Voorziening voor groot onderhoud transport- en vervoermiddelen	C	4		
+BVrzVgoVgi	0703040	Voorziening voor groot onderhoud inventaris	C	4		
+BVrzOvzGar	0704010	Garantievoorziening	C	4		
+BVrzOvzVhe	0704020	Voorziening voor herstelkosten	C	4		
+BVrzOvzVvo	0704030	Voorziening voor opruiming van aanwezige milieuvervuiling	C	4		
+BVrzOvzVuc	0704040	"Voorziening uit hoofde van claims, geschillen en rechtsgedingen"	C	4		
+BVrzOvzVwp	0704050	Voorziening voor verwijderingsverplichtingen	C	4		
+BVrzOvzVlc	0704060	Voorziening voor verlieslatende contracten	C	4		
+BVrzOvzVir	0704070	Voorziening in verband met reorganisaties	C	4		
+BVrzOvzVid	0704080	Voorziening in verband met deelnemingen	C	4		
+BVrzOvzJub	0704090	Jubileumvoorziening	C	4		
+BVrzOvzArb	0704100	Arbeidsongeschiktheidsvoorziening	C	4		
+BVrzOvzLij	0704110	Lijfrenteverplichting	C	4		
+BVrzOvzOvz	0704120	Overige voorzieningen operationeel	C	4		
+BVrzOvzOvn	0704130	Overige voorzieningen niet operationeel	C	4		
+BVrzNegBwn	0705010	Bruto waarde negatieve goodwill	C	4		
+BVrzNegCtg	0705020	Cumulatief ten gunste van winst-en-verliesrekening gebrachte negatieve goodwill	C	4		
+BLasAclAll	0801010	Achtergestelde leningen (langlopend)	C	4		
+BLasColCll	0802010	Converteerbare leningen (langlopend)	C	4		
+BLasAoeAol	0803010	Andere obligaties en onderhandse leningen (langlopend)	C	4		
+BLasFlvMlk	0804010	"Minimale lease betalingen, looptijd korter dan een jaar"	C	4		
+BLasFlvMlm	0804020	"Minimale lease betalingen, looptijd langer dan een jaar en korter dan vijf jaar"	C	4		
+BLasFlvMll	0804030	"Minimale lease betalingen, looptijd langer dan vijf jaar"	C	4		
+BLasFlvCwk	0804040	"Contante waarde, looptijd korter dan een jaar"	C	4		
+BLasFlvCwm	0804050	"Contante waarde, looptijd langer dan een jaar en korter dan vijf jaar"	C	4		
+BLasFlvCwl	0804060	"Contante waarde, looptijd langer dan vijf jaar"	C	4		
+BLasFlvVle	0804070	Voorwaardelijke lease betalingen	D	4		
+BLasFlvTot	0804080	Te ontvangen toekomstige minimale sublease betalingen met betrekking tot niet tussentijds opzegbare subleases	D	4		
+BLasFlvOrb	0804090	Onverdiende rentebaten	D	4		
+BLasFlvGrv	0804100	Gegarandeerde restwaarde van de leaseobjecten die de lessor economisch toekomen	C	4		
+BLasSakHvl	0805010	Hypotheken van kredietinstellingen (langlopend)	C	4		
+BLasSakFvl	0805020	Financieringen van kredietinstellingen (langlopend)	C	4		
+BLasSakLvl	0805030	Leningen van kredietinstellingen (langlopend)	C	4		
+BLasOlsSgl	0806010	Schulden aan groepsmaatschappijen (langlopend)	C	4		
+BLasOlsSvm	0806020	Schulden aan overige verbonden maatschappijen (langlopend)	C	4		
+BLasOlsSpl	0806030	Schulden aan participanten en aan maatschappijen waarin wordt deelgenomen (langlopend)	C	4		
+BLasOlsBep	0806040	Belastingen en premies sociale verzekeringen (langlopend)	C	4		
+BLasOlsStz	0806050	Schulden ter zake van pensioenen (langlopend)	C	4		
+BLasOlsVbe	0806060	Vooruitontvangen op bestellingen (langlopend)	C	4		
+BLasOlsSll	0806070	Schulden aan leveranciers en handelskredieten (langlopend)	C	4		
+BLasOlsTwl	0806080	Te betalen wissels en cheques (langlopend)	C	4		
+BLasOlsGvl	0806090	Giftenverplichtingen (langlopend)	C	4		
+BLasOlsSvl	0806100	Subsidieverplichtingen (langlopend)	C	4		
+BLasOlsVvn	0806110	Verplichtingen uit hoofde van onroerende zaken verkocht onder voorwaarden (langlopend)	C	4		
+BLasOlsVod	0806120	Verplichtingen aan overheid (langlopend)	C	4		
+BLasOlsOsl	0806130	Overige schulden (langlopend)	C	4		
+BLasOlsOlp	0806140	Overlopende passiva (langlopend)	C	4		
+BLimKasKas	1001010	Kas	D	4		
+BLimKasKlk	1001020	Kleine kas	D	4		
+BLimBanRba	1002010	Rekening-courant bank	D	4		
+BLimBanDrk	1002020	Depotrekening	D	4		
+BLimBanDep	1002030	Depositorekening	D	4		
+BLimBanBel	1002040	Beleggingsrekening	D	4		
+BLimBanInb	1002050	Internetrekening	D	4		
+BLimKruSto	1003010	Stortingen onderweg	D	4		
+BLimKruPIb	1003020	PIN betalingen	D	4		
+BLimKruCra	1003030	Creditcard afrekening	D	4		
+BLimKruWec	1003040	Wissels en cheques	D	4		
+BVorDebHad	1101010	Handelsdebiteuren	D	4		
+BVorDebHdi	1101020	Handelsdebiteuren intercompany	D	4		
+BVorDebVdd	1101030	Voorziening dubieuze debiteuren	D	4		
+BVorDebHdb	1101040	Huurdebiteuren	D	4		
+BVorDebGet	1101050	Gefactureerde termijnen	D	4		
+BVorBtwTtv	1102010	Terug te vorderen omzetbelasting	D	4		
+BVorOvrWbs	1103010	Waarborgsom	D	4		
+BVorOvrTvd	1103020	Te vorderen dividend	D	4		
+BVorOvrInd	1103030	Ingehouden dividendbelasting	D	4		
+BVorOvrTvs	1103040	Te vorderen overheidssubsidies	D	4		
+BVorOvrTvl	1103050	Te vorderen loonsubsidie	D	4		
+BVorOvrTos	1103060	Te vorderen overige subsidies	D	4		
+BVorOvrTvr	1103070	Te vorderen rente lening	D	4		
+BVorOvrTvo	1103080	Te vorderen overige rente	D	4		
+BVorOvrVrb	1103090	Vooruitbetalingen	D	4		
+BVorOvrVgk	1103100	Vorderingen op groepsmaatschappijen (kortlopend)	D	4		
+BVorOvrVok	1103110	Vorderingen op overige verbonden maatschappijen (kortlopend)	D	4		
+BVorOvrVpk	1103120	Vorderingen op participanten en op maatschappijen waarin wordt deelgenomen (kortlopend)	D	4		
+BVorOvrVao	1103130	Van aandeelhouders opgevraagde stortingen	D	4		
+BVorOvrRcb	1103140	Rekening-courant bestuurders	D	4		
+BVorOvrVup	1103150	Vorderingen uit hoofde van pensioenen	D	4		
+BVorOvrVub	1103160	Vorderingen uit hoofde van belastingen	D	4		
+BVorOvrBlk	1103170	Latente belastingvorderingen (kortlopend)	D	4		
+BVorOvrOvk	1103180	Overige vorderingen (kortlopend)	D	4		
+BVorOvaVof	1104010	Vooruitbetaalde facturen	D	4		
+BVorOvaVbs	1104020	Vooruitverzonden op bestellingen	D	4		
+BVorOvaNtf	1104030	Nog te factureren of nog te verzenden facturen	D	4		
+BVorOvaTor	1104040	Te ontvangen rente	D	4		
+BVorOvaVbr	1104050	Vooruitbetaalde rente	D	4		
+BVorOvaOoa	1104060	Overige overlopende activa	D	4		
+BSchKolAlk	1201010	Achtergestelde leningen (kortlopend)	C	4		
+BSchKolClk	1201020	Converteerbare leningen (kortlopend)	C	4		
+BSchKolAok	1201030	Andere obligaties en onderhandse leningen (kortlopend)	C	4		
+BSchKolFlk	1201040	Financiële lease verplichtingen (kortlopend)	C	4		
+BSchKolOpl	1201050	Operationele lease verplichtingen (kortlopend)	C	4		
+BSchKolHvk	1201060	Hypotheken van kredietinstellingen (kortlopend)	C	4		
+BSchKolFvk	1201070	Financieringen van kredietinstellingen (kortlopend)	C	4		
+BSchKolLvk	1201080	Leningen van kredietinstellingen (kortlopend)	C	4		
+BSchSavSgk	1202010	Schulden aan groepsmaatschappijen (kortlopend)	C	4		
+BSchSavSvk	1202020	Schulden aan overige verbonden maatschappijen (kortlopend)	C	4		
+BSchSavSpk	1202030	Schulden aan participanten en aan maatschappijen waarin wordt deelgenomen (kortlopend)	C	4		
+BSchCreHac	1203010	Handelscrediteuren	C	4		
+BSchCreHci	1203020	Handelscrediteuren intercompany	C	4		
+BSchCreVbk	1203030	Vooruitontvangen op bestellingen	C	4		
+BSchCreKcr	1203040	Kostencrediteuren	C	4		
+BSchSalNet	1204010	Nettolonen	C	4		
+BSchSalVpe	1204020	Voorschotten personeel	C	4		
+BSchSalTan	1204030	Tantièmes	C	4		
+BSchSalTvg	1204040	Te betalen vakantiebijslag	C	4		
+BSchSalTbv	1204050	Reservering vakantiedagen	C	4		
+BSchSalVab	1204060	Vakantiebonnen	C	4		
+BSchSalBls	1204070	Bruto lonen en salarissen	C	4		
+BSchSalPsv	1204080	Premies sociale verzekeringen	C	4		
+BSchSalPen	1204090	Pensioenpremies	C	4		
+BSchSalPer	1204100	Personeelsfonds	C	4		
+BSchSalOna	1204110	Overige netto-afdrachten	C	4		
+BSchBtwAtd	1205010	Af te dragen omzetbelasting	C	4		
+BSchLheAfb	1206010	Af te dragen loonheffing	C	4		
+BSchVpbAtv	1207010	Af te dragen vennootschapsbelasting	C	4		
+BSchOvbBib	1208010	Binnenlandse belastingen	C	4		
+BSchOvbBut	1208020	Buitenlandse belastingen	C	4		
+BSchOvbPrb	1208030	Provinciale belastingen	C	4		
+BSchOvbGbe	1208040	Gemeentelijke belastingen	C	4		
+BSchOvsSaa	1209010	Schulden aan aandeelhouders	C	4		
+BSchOvsRcb	1209020	Rekening-courant bestuurders	C	4		
+BSchOvsRba	1209030	Rekening-courant bank	C	4		
+BSchOvsSag	1209040	Overige schulden aan groepsmaatschappijen	C	4		
+BSchOvsSao	1209050	Overige schulden aan overige verbonden maatschappijen	C	4		
+BSchOvsSap	1209060	Overige schulden aan participanten en aan maatschappijen waarin wordt deelgenomen	C	4		
+BSchOvsTbd	1209070	Te betalen dividend	C	4		
+BSchOvsTbw	1209080	Te betalen wissels en cheques	C	4		
+BSchOvsGif	1209090	Giftenverplichtingen	C	4		
+BSchOvsSuv	1209100	Subsidieverplichtingen	C	4		
+BSchOvsStp	1209110	Schulden terzake van pensioenen	C	4		
+BSchOvsSuh	1209120	Schulden uit hoofde van projecten	C	4		
+BSchOvsVvv	1209130	Verplichtingen uit hoofde van onroerende zaken verkocht onder voorwaarden	C	4		
+BSchOvsVpo	1209140	Verplichtingen aan overheid	C	4		
+BSchOvsOvs	1209150	Overige schulden	C	4		
+BSchOpaNto	1210010	Nog te ontvangen facturen	C	4		
+BSchOpaNtb	1210020	Nog te betalen kosten	C	4		
+BSchOpaTbr	1210030	Te betalen rente	C	4		
+BSchOpaVor	1210040	Vooruitontvangen rente	C	4		
+BSchOpaOop	1210050	Overige overlopende passiva	C	4		
+BVrdHanVoo	3001010	Voorraad handelsgoederen	D	4		
+BVrdHanVic	3001020	Voorziening incourant handelsgoederen	C	4		
+BVrdHanHvv	3001030	Herwaardering van voorraden handelsgoederen	C	4		
+BVrdHanAwv	3001040	Afwaardering van voorraden handelsgoederen	C	4		
+BVrdHanTve	3001050	Terugneming van een eerder verwerkte afwaardering handelsgoederen	D	4		
+BVrdGehVoo	3002010	Voorraad grond- en hulpstoffen	D	4		
+BVrdGehVic	3002020	Voorziening incourant grond- en hulpstoffen	C	4		
+BVrdGehHvv	3002030	Herwaardering van voorraden grond- en hulpstoffen	C	4		
+BVrdGehAwv	3002040	Afwaardering van voorraden grond- en hulpstoffen	C	4		
+BVrdGehTve	3002050	Terugneming van een eerder verwerkte afwaardering grond- en hulpstoffen	D	4		
+BVrdEmbVoo	3003010	Voorraad emballage	D	4		
+BVrdEmbVic	3003020	Voorziening incourant emballage	C	4		
+BVrdEmbHvv	3003030	Herwaardering van voorraden emballage	C	4		
+BVrdEmbAwv	3003040	Afwaardering van voorraden emballage	C	4		
+BVrdEmbTve	3003050	Terugneming van een eerder verwerkte afwaardering emballage	D	4		
+BVrdVrvVoo	3004010	Vooruitbetalingen op voorraden	D	4		
+BVrdVrvVic	3004020	Voorziening incourant vooruitbetaald op voorraden	C	4		
+BVrdVrvHvv	3004030	Herwaardering van voorraden vooruitbetaald op voorraden	C	4		
+BVrdVrvAwv	3004040	Afwaardering van voorraden vooruitbetaald op voorraden	C	4		
+BVrdVrvTve	3004050	Terugneming van een eerder verwerkte afwaardering vooruitbetaald op voorraden	D	4		
+BVrdOweVoo	3101010	Voorraad onderhanden werken	D	4		
+BVrdOweGet	3101020	Gefactureerde termijnen onderhanden werken	C	4		
+BVrdOweVzv	3101030	Voorziening verliezen onderhanden werken	C	4		
+BVrdHalVoo	3102010	Voorraad halffabrikaten	D	4		
+BVrdHalVic	3102020	Voorziening incourant halffabrikaten	C	4		
+BVrdHalHvv	3102030	Herwaardering van voorraden halffabrikaten	C	4		
+BVrdHalAwv	3102040	Afwaardering van voorraden halffabrikaten	C	4		
+BVrdHalTve	3102050	Terugneming van een eerder verwerkte afwaardering halffabrikaten	D	4		
+BVrdGepVoo	3103010	Voorraad gereed product	D	4		
+BVrdGepVic	3103020	Voorziening incourant gereed product	C	4		
+BVrdGepHvv	3103030	Herwaardering van voorraden gereed product	C	4		
+BVrdGepAwv	3103040	Afwaardering van voorraden gereed product	C	4		
+BVrdGepTve	3103050	Terugneming van een eerder verwerkte afwaardering gereed product	D	4		
+BVrdVasVio	3104010	Vastgoed in ontwikkeling bestemd voor de verkoop vastgoed	D	4		
+BVrdVasVbv	3104020	Vastgoed bestemd voor de verkoop vastgoed	D	4		
+BProOnpOpo	3501010	"Onderhanden projecten in opdracht van derden, opbrengsten uit onderhanden projecten verwerkt in de winst-en-verliesrekening"	D	4		
+BProOnpOpv	3501020	"Onderhanden projecten in opdracht van derden, voorschotten"	D	4		
+BProOnpOpi	3501030	"Onderhanden projecten in opdracht van derden, inhoudingen op gedeclareerde termijnen"	D	4		
+BProOnpOnk	3501040	"Onderhanden projecten in opdracht van derden, geactiveerde kosten voor nog niet geleverde diensten"	D	4		
+BProOnpGet	3501050	Gefactureerde termijnen onderhanden projecten	C	4		
+BProOnpVzv	3501060	Voorziening verliezen onderhanden projecten	C	4		
+WPerLesSld	4001010	Bezoldiging van bestuurders en gewezen bestuurders	D	4		
+WPerLesBvc	4001020	Bezoldiging van commissarissen en gewezen commissarissen	D	4		
+WPerLesTep	4001030	Tantièmes en provisie	D	4		
+WPerLesLon	4001040	Lonen	D	4		
+WPerLesOwe	4001050	Overwerk	D	4		
+WPerLesOnr	4001060	Onregelmatigheidstoeslag	D	4		
+WPerLesVag	4001070	Vakantiebijslag	D	4		
+WPerLesVad	4001080	Vakantiedagen	D	4		
+WPerLesGra	4001090	Gratificaties	D	4		
+WPerLesLin	4001100	Lonen in natura	D	4		
+WPerLesTls	4001110	Eindheffing spaarloon	D	4		
+WPerLesLoo	4001120	Loonkostenreductie	D	4		
+WPerLesOvt	4001130	Overige toeslagen	D	4		
+WPerLesOnu	4001140	Ontslaguitkeringen	D	4		
+WPerLesLiv	4001150	Lasten in verband met aandelen(optie)regelingen	D	4		
+WPerLesOlr	4001160	Overige lonen en salarissen	D	4		
+WPerLesDle	4001990	Doorberekende lonen en salarissen	C	4		
+WPerSolPsv	4002010	Premies sociale verzekeringen	C	4		
+WPerSolBiz	4002020	Bijdrage ziektekostenverzekering	D	4		
+WPerSolOpr	4002030	Overige premies	D	4		
+WPerSolOsf	4002040	Overige sociale fondsen	D	4		
+WPerSolOss	4002050	Overige sociale lasten	D	4		
+WPerSolDsl	4002990	Doorberekende sociale lasten	C	4		
+WPerPenPen	4003010	Pensioenpremies	C	4		
+WPerPenDpe	4003020	Dotatie pensioenvoorziening directie	D	4		
+WPerPenVpv	4003030	Vrijval pensioenvoorziening directie	C	4		
+WPerPenDvb	4003040	Dotatie voorziening backserviceverplichting directie	D	4		
+WPerPenVvb	4003050	Vrijval voorziening backserviceverplichting directie	C	4		
+WPerPenDvl	4003060	Dotatie voorziening lijfrenteverplichtingen	D	4		
+WPerPenVvl	4003070	Vrijval voorziening lijfrenteverplichtingen	C	4		
+WPerPenOpe	4003080	Overige pensioenlasten	D	4		
+WPerPenDon	4003990	Doorberekende pensioenlasten	C	4		
+WPerWkfVtw	4004010	"Verteer werknemers (buiten werkplek, extern)"	D	4		
+WPerWkfMow	4004020	Maaltijden op de werkplek	D	4		
+WPerWkfVcn	4004030	Vaste vergoeding voor consumpties (niet-ambulante werknemer)	D	4		
+WPerWkfRvn	4004040	Rentevoordeel personeelslening (niet eigen woning of (elektrische) fiets/elektrische scooter)	D	4		
+WPerWkfHei	4004050	"Huisvesting en inwoning (incl energie,water, bewassing) niet ter vervulling dienstbetrekking"	D	4		
+WPerWkfVmn	4004060	Vergoeding/verstrekking mobiele telefoon incl. abonnement (indien niet noodzakelijk)	D	4		
+WPerWkfVtb	4004070	Vergoeding telefoonabonnementen/internetabonnementen bij werknemer thuis (indien niet noodzakelijk)	D	4		
+WPerWkfVvt	4004080	Vergoeding/verstrekking van tablet (indien niet noodzakelijk)	D	4		
+WPerWkfVlp	4004090	Vergoeding/verstrekking van laptop (indien niet noodzakelijk)	D	4		
+WPerWkfVdt	4004100	Vergoeding/verstrekking van desktop (indien niet noodzakelijk)	D	4		
+WPerWkfVcp	4004110	Vergoeding/verstrekking computerprogrammatuur (indien niet noodzakelijk)	D	4		
+WPerWkfIwt	4004120	Inrichting werkplek thuis (exclusief arbovoorzieningen)	D	4		
+WPerWkfVrh	4004130	"Vergoeding reiskosten voorzover boven € 0,19 per kilometer"	D	4		
+WPerWkfVpb	4004140	Vergoeding van kosten van persoonlijke beschermingsmiddelen aan werknemer	D	4		
+WPerWkfVww	4004150	Vergoeding van kosten van werkkleding die nagenoeg uitsluitend geschikt is om in te werken	D	4		
+WPerWkfVka	4004160	Vergoeding van kosten van kleding die achterblijft op de werkplek	D	4		
+WPerWkfVog	4004170	Verstrekking/vergoeding van overige kleding	D	4		
+WPerWkfEho	4004180	Eerste huisvestingskosten (tot 18% van het loon)	D	4		
+WPerWkfZve	4004190	Zakelijke verhuiskosten exclusief kosten overbrenging boedel (boven gerichte vrijstelling)	D	4		
+WPerWkfPfe	4004200	Personeelsfeesten (buiten de werkplek)	D	4		
+WPerWkfKrs	4004210	Kerstpakket aan personeel en postactieven	D	4		
+WPerWkfGmi	4004220	Geschenken met in hoofzaak ideële waarde bij feestdagen en jubilea	D	4		
+WPerWkfAgn	4004230	Andere geschenken in natura	D	4		
+WPerWkfAgg	4004240	Andere geschenken in de vorm van een geldsom	D	4		
+WPerWkfFie	4004250	Fietsvergoeding	D	4		
+WPerWkfBbd	4004260	Bedrijfsfitness buiten de werkplek	D	4		
+WPerWkfKpu	4004270	Producten uit eigen bedrijf en kortingen voor zover niet vrijgesteld	D	4		
+WPerWkfWep	4004280	Werkgeversbijdrage personeelsvereniging	D	4		
+WPerWkfVbp	4004290	Vergoeding werknemersbijdrage personeelsvereniging	D	4		
+WPerWkfVev	4004300	Vergoeding vakbondscontributie	D	4		
+WPerWkfPrz	4004310	Personeelsreizen	D	4		
+WPerWkfPwn	4004320	"Parkeren bij werk (niet zijnde auto van de zaak) (geen eigen parkeerterrein, parkeervergunning)"	D	4		
+WPerWkfPvn	4004330	"Parkeer-, veer- en tolgelden (niet zijnde auto van de zaak)"	D	4		
+WPerWkfPev	4004340	Persoonlijke verzorging	D	4		
+WPerWkfRaw	4004350	Representatievergoeding/relatiegeschenken aan werknemers	D	4		
+WPerWkfEbd	4004360	Eigen bijdrage werknemers voor kinderopvang op werkplek (dagopvang)	D	4		
+WPerWkfEbb	4004370	Eigen bijdrage werknemers voor kinderopvang op werkplek (bso)	D	4		
+WPerWkfKbd	4004380	Kinderopvang buiten de werkplek (factuurwaarde incl. btw of WEV)	D	4		
+WPerWkfEbw	4004390	Eigen bijdrage werknemers voor kinderopvang buiten de werkplek	D	4		
+WPerWkfDkd	4004400	Door inhoudingsplichte verrichte kinderopvang op werkplek (dagopvang)	D	4		
+WPerWkfDkb	4004410	Door inhoudingsplichte verrichte kinderopvang op werkplek (bso)	D	4		
+WPerWkfOwr	4004420	Overige werkkosten vrije ruimte	D	4		
+WPerWknVwo	4005010	Verteer werknemers op werkplek (geen maaltijden)	D	4		
+WPerWknHit	4005020	"Huisvesting en inwoning (incl energie,water, bewassing) ter vervulling dienstbetrekking"	D	4		
+WPerWknRve	4005030	Rentevoordeel personeelslening eigen woning en (elektrische) fiets of elektrische scooter	D	4		
+WPerWknTbs	4005040	Ter beschikking stellen desktop computer op werkplek	D	4		
+WPerWknIwe	4005050	Inrichting werkplek (niet thuis)	D	4		
+WPerWknIwa	4005060	Inrichting werkplek arbo-voorzieningen (thuis)	D	4		
+WPerWknPwp	4005070	Parkeren werkplek (niet zijnde auto van de zaak)(op parkeerterrein van werkgever)	D	4		
+WPerWknTbg	4005080	Ter beschikking gestelde openbaarvervoerkaart/voordelenurenkaart (mede zakelijk gebruikt)	D	4		
+WPerWknVbm	4005090	"Verstrekking van persoonlijke beschermingsmiddelen (veiligheidsbril, werkschoenen) door werkgever"	D	4		
+WPerWknVwk	4005100	Verstrekking van werkkleding die nagenoeg uitsluitend geschikt is om in te werken door werkgever	D	4		
+WPerWknVvk	4005110	Verstrekking van kleding die achterblijft op de werkplek	D	4		
+WPerWknVkl	4005120	Verstrekking van kleding met bedrijfslogo van tenminste 70 cm²	D	4		
+WPerWknArv	4005130	Arbovoorzieningen	D	4		
+WPerWknPfw	4005140	Personeelsfeesten (op de werkplek)	D	4		
+WPerWknBod	4005150	Bedrijfsfitness op de werkplek	D	4		
+WPerWknOwn	4005160	Overige werkkosten nihilwaardering	D	4		
+WPerWkgVro	4006010	"Vergoeding reiskosten (tot € 0,19) per kilometer"	D	4		
+WPerWkgCem	4006020	Consumpties en maaltijden dienstreis	D	4		
+WPerWkgMbo	4006030	Maaltijden bij overwerk/werk op koopavonden	D	4		
+WPerWkgVca	4006040	Vaste vergoeding voor consumpties (ambulante werknemer)	D	4		
+WPerWkgOsc	4006050	"Opleidingen, studies, cursussen, congressen, seminars, symposia, excursies, studiereizen"	D	4		
+WPerWkgVak	4006060	Vakliteratuur	D	4		
+WPerWkgIwr	4006070	Inschrijving wettelijk en door beroepsgroep opgelegde registers	D	4		
+WPerWkgDuh	4006080	Dubbele huisvestingskosten	D	4		
+WPerWkgEkl	4006090	Extra kosten levensonderhoud	D	4		
+WPerWkgKap	4006100	"Kosten aanvragen/omzetten papieren (verblijfsvergunningen, visa, rijbewijzen) "	D	4		
+WPerWkgKmk	4006110	"Kosten medische keuringen, vaccinaties"	D	4		
+WPerWkgRnl	4006120	"Reiskosten naar land herkomst (familiebezoek, gezinshereniging)"	D	4		
+WPerWkgCtw	4006130	Cursuskosten taal werkland (werknemer + gezin)	D	4		
+WPerWkgEhb	4006140	Eerste huisvestingskosten (boven 18% van het loon)	D	4		
+WPerWkgEtk	4006150	Extra (niet-zakelijke) telefoonkosten (gesprek) met land van herkomst	D	4		
+WPerWkgOpb	4006160	Opslagkosten boedel	D	4		
+WPerWkgKkw	4006170	Kosten kennismakingsreis werkland	D	4		
+WPerWkgK3r	4006180	Kosten 30% regeling	D	4		
+WPerWkgZvk	4006190	Zakelijke verhuiskosten: kosten overbrenging boedel	D	4		
+WPerWkgZvo	4006200	Zakelijke verhuiskosten exclusief kosten overbrenging boedel	D	4		
+WPerWkgOut	4006210	Outplacementkosten	D	4		
+WPerWkgHow	4006220	(Hotel)overnachtingen in verband met werk	D	4		
+WPerWkgVpr	4006230	Verstrekte producten en kortingen op producten uit eigen bedrijf (voor zover vrijgesteld)	D	4		
+WPerWkgOwv	4006240	Overige werkkosten gericht vrijgesteld	D	4		
+WPerWkcVmt	4007010	Vergoeding/verstrekking mobiele telefoon incl. abonnement (mits noodzakelijk)	D	4		
+WPerWkcVtn	4007020	Vergoeding/verstrekking van tablet (mits noodzakelijk)	D	4		
+WPerWkcVln	4007030	Vergoeding/verstrekking van laptop (mits noodzakelijk)	D	4		
+WPerWkcVdn	4007040	Vergoeding/verstrekking van desktop (mits noodzakelijk)	D	4		
+WPerWkcVcm	4007050	Vergoeding/verstrekking computerprogrammatuur (mits noodzakelijk)	D	4		
+WPerWkcOwm	4007060	Overige werkkosten noodzakelijkheidscriterium	D	4		
+WPerWkiMmz	4008010	Maaltijden met zakelijke relaties	D	4		
+WPerWkiPva	4008020	"Parkeer-, veer- en tolgelden (auto van de zaak)"	D	4		
+WPerWkiPwa	4008030	"Parkeren bij werk (auto van de zaak) (geen eigen parkeerterrein, parkeervergunning)"	D	4		
+WPerWkiOwi	4008040	Overige werkkosten intermediair	D	4		
+WPerWkbPga	4009010	Privé-gebruik auto's	D	4		
+WPerWkbGed	4009020	Genot dienstwoning	D	4		
+WPerWkbGbu	4009030	Geldboetes buitenlandse autoriteiten	D	4		
+WPerWkbGbi	4009040	Geldboetes binnenlandse autoriteiten	D	4		
+WPerWkbVzm	4009050	Vergoedingen en verstrekkingen ter zake van misdrijven	D	4		
+WPerWkbVwm	4009060	Vergoedingen en verstrekkingen ter zake van wapens en munitie	D	4		
+WPerWkbVdr	4009070	Vergoedingen en verstrekkingen ter zake van agressieve dieren	D	4		
+WPerWkbOwb	4009080	Overige werkkosten belast loon	D	4		
+WPerWkvFrb	4010010	"Fruitmand, rouwkrans, bloemetje"	D	4		
+WPerWkvKgs	4010020	Kleine geschenken (geen geld of waardebon) maximaal € 25	D	4		
+WPerWkvEub	4010030	Eenmalige uitkering/verstrekking bij 25/40-jarig diensttijdjubileum werknemer (voorzover =< 1 x maandloon)	D	4		
+WPerWkvWpv	4010040	Werkgeversbijdrage personeelsvereniging (als werknemers geen aanspraak hebben op uitkeringen uit de pv)	D	4		
+WPerWkvUtv	4010050	Uitkering/verstrekking tot vergoeding door werknemer ivm met werk gelden schade/verlies persoonlijke zaken	D	4		
+WPerWkvEuo	4010060	"Eenmalige uitkering/verstrekking bij overlijden werknemer, zijn partner of kinderen (voorzover = < 3 x maandloon)"	D	4		
+WPerWkvUue	4010070	Uitkering/verstrekking uit een personeelsfonds 	D	4		
+WPerWkvMpi	4010080	Meewerkvergoeding partner inhoudingsplichtige (indien lager dan € 5.000)	D	4		
+WPerWkvOwg	4010090	Overige werkkosten geen of vrijgesteld loon	D	4		
+WPerWkoWee	4011010	Werkkosten eindheffing	D	4		
+WPerWkoCiB	4011020	Correctie inzake BTW	C	4		
+WPerWkoObw	4011030	Overboeking werkkosten	C	4		
+WPerWkoDwk	4011990	Doorberekende werkkosten	C	4		
+WPerOvpUik	4012010	Uitzendkrachten	D	4		
+WPerOvpUit	4012020	Uitzendbedrijven	D	4		
+WPerOvpMaf	4012030	Management fee	D	4		
+WPerOvpOip	4012040	Overig ingeleend personeel	D	4		
+WPerOvpWer	4012050	Wervingskosten	D	4		
+WPerOvpAbd	4012060	Arbodienst	D	4		
+WPerOvpDdd	4012070	Diensten door derden	D	4		
+WPerOvpZie	4012080	Ziekengeldverzekering	D	4		
+WPerOvpOzi	4012090	Ontvangen ziekengelden	D	4		
+WPerOvpDvr	4012100	Dotatie voorziening in verband met reorganisaties	D	4		
+WPerOvpVvr	4012110	Vrijval voorziening in verband met reorganisaties	C	4		
+WPerOvpDoa	4012120	Dotatie arbeidsongeschiktheidsvoorziening	D	4		
+WPerOvpDoj	4012130	Dotatie jubileumvoorziening	D	4		
+WPerOvpVva	4012140	Vrijval arbeidsongeschiktheidsvoorziening	C	4		
+WPerOvpVrj	4012150	Vrijval jubileumvoorziening	C	4		
+WPerOvpObp	4012160	Overige belastingen inzake personeel	D	4		
+WPerOvpOvp	4012170	Overige personeelskosten	D	4		
+WPerOvpDop	4012990	Doorberekende overige personeelskosten	C	4		
+WAfsAivOek	4101010	Afschrijving oprichtingskosten en kosten uitgifte van aandelen	D	4		
+WAfsAivKoe	4101020	Afschrijving kosten onderzoek en ontwikkeling	D	4		
+WAfsAivCev	4101030	Afschrijving concessies en vergunningen	D	4		
+WAfsAivSof	4101040	Afschrijving software	D	4		
+WAfsAivOie	4101050	Afschrijving overig intellectueel eigendom	D	4		
+WAfsAivBou	4101060	Afschrijving bouwclaims	D	4		
+WAfsAivGoo	4101070	Afschrijving goodwill	D	4		
+WAfsAivGue	4101080	Afschrijving goodwill uit eerdere overnames	D	4		
+WAfsAivViv	4101090	Afschrijving vooruitbetaalde immateriële vaste activa	D	4		
+WAfsAivOiv	4101100	Afschrijving overige immateriële vaste activa	D	4		
+WAfsAmvBeg	4102010	Afschrijving bedrijfsgebouwen	D	4		
+WAfsAmvVeb	4102020	Afschrijving verbouwingen	D	4		
+WAfsAmvVas	4102030	Afschrijving vastgoedbeleggingen	D	4		
+WAfsAmvHuu	4102040	Afschrijving huurdersinvesteringen	D	4		
+WAfsAmvMei	4102050	Afschrijving machines en installaties	D	4		
+WAfsAmvSev	4102060	Afschrijving schepen en vliegtuigen	D	4		
+WAfsAmvTev	4102070	Afschrijving transport- en vervoermiddelen	D	4		
+WAfsAmvObe	4102080	Afschrijving overige vaste bedrijfsmiddelen	D	4		
+WAfsAmvBei	4102090	Afschrijving bedrijfsinventaris	D	4		
+WAfsAmvVbi	4102100	Afschrijving vaste bedrijfsmiddelen in uitvoering en vooruitbetaalde materiële vaste activa	D	4		
+WAfsAmvBgm	4102110	Afschrijving buitengebruikgestelde materiële vaste activa	D	4		
+WAfsAmvOmv	4102120	Afschrijving overige materiële vaste activa	D	4		
+WAfsOwiOek	4103010	Overige waardeverandering oprichtingskosten en kosten uitgifte van aandelen	D	4		
+WAfsOwiKoe	4103020	Overige waardeverandering kosten onderzoek en ontwikkeling	D	4		
+WAfsOwiCev	4103030	Overige waardeverandering concessies en vergunningen	D	4		
+WAfsOwiSof	4103040	Overige waardeverandering software	D	4		
+WAfsOwiOie	4103050	Overige waardeverandering overig intellectueel eigendom	D	4		
+WAfsOwiBou	4103060	Overige waardeverandering bouwclaims	D	4		
+WAfsOwiGoo	4103070	Overige waardeverandering goodwill	D	4		
+WAfsOwiGue	4103080	Overige waardeverandering goodwill uit eerdere overnames	D	4		
+WAfsOwiViv	4103090	Overige waardeverandering vooruitbetaalde immateriële vaste activa	D	4		
+WAfsOwiOiv	4103100	Overige waardeverandering overige immateriële vaste activa	D	4		
+WAfsOwmBeg	4104010	Overige waardeverandering bedrijfsgebouwen	D	4		
+WAfsOwmVeb	4104020	Overige waardeverandering verbouwingen	D	4		
+WAfsOwmVas	4104030	Overige waardeverandering vastgoedbeleggingen	D	4		
+WAfsOwmHuu	4104040	Overige waardeverandering huurdersinvesteringen	D	4		
+WAfsOwmMei	4104050	Overige waardeverandering machines en installaties	D	4		
+WAfsOwmSev	4104060	Overige waardeverandering schepen en vliegtuigen	D	4		
+WAfsOwmTev	4104070	Overige waardeverandering transport- en vervoermiddelen	D	4		
+WAfsOwmObe	4104080	Overige waardeverandering overige vaste bedrijfsmiddelen	D	4		
+WAfsOwmBei	4104090	Overige waardeverandering bedrijfsinventaris	D	4		
+WAfsOwmVbi	4104100	Overige waardeverandering vaste bedrijfsmiddelen in uitvoering en vooruitbetaalde materiële vaste activa	D	4		
+WAfsOwmBgm	4104110	Overige waardeverandering buitengebruikgestelde materiële vaste activa	D	4		
+WAfsOwmOmv	4104120	Overige waardeverandering overige materiële vaste activa	D	4		
+WAfsRviOek	4105010	Resultaat verkoop oprichtingskosten en kosten uitgifte van aandelen	C	4		
+WAfsRviKoe	4105020	Resultaat verkoop kosten onderzoek en ontwikkeling	C	4		
+WAfsRviCev	4105030	Resultaat verkoop concessies en vergunningen	C	4		
+WAfsRviSof	4105040	Resultaat verkoop software	C	4		
+WAfsRviOie	4105050	Resultaat verkoop overig intellectueel eigendom	C	4		
+WAfsRviBou	4105060	Resultaat verkoop bouwclaims	C	4		
+WAfsRviGoo	4105070	Resultaat verkoop goodwill	C	4		
+WAfsRviGue	4105080	Resultaat verkoop goodwill uit eerdere overnames	C	4		
+WAfsRviViv	4105090	Resultaat verkoop vooruitbetaalde immateriële vaste activa	C	4		
+WAfsRviOiv	4105100	Resultaat verkoop overige immateriële vaste activa	C	4		
+WAfsRvmBeg	4106010	Resultaat verkoop bedrijfsgebouwen	C	4		
+WAfsRvmVeb	4106020	Resultaat verkoop verbouwingen	C	4		
+WAfsRvmVas	4106030	Resultaat verkoop vastgoedbeleggingen	C	4		
+WAfsRvmHuu	4106040	Resultaat verkoop huurdersinvesteringen	C	4		
+WAfsRvmMei	4106050	Resultaat verkoop machines en installaties	C	4		
+WAfsRvmSev	4106060	Resultaat verkoop schepen en vliegtuigen	C	4		
+WAfsRvmTev	4106070	Resultaat verkoop transport- en vervoermiddelen	C	4		
+WAfsRvmObe	4106080	Resultaat verkoop overige vaste bedrijfsmiddelen	C	4		
+WAfsRvmBei	4106090	Resultaat verkoop bedrijfsinventaris	C	4		
+WAfsRvmVbi	4106100	Resultaat verkoop vaste bedrijfsmiddelen in uitvoering en vooruitbetaalde materiële vaste activa	C	4		
+WAfsRvmBgm	4106110	Resultaat verkoop buitengebruikgestelde materiële vaste activa	C	4		
+WAfsRvmOmv	4106120	Resultaat verkoop overige materiële vaste activa	C	4		
+WAfsDaeDaf	4199010	Doorberekende afschrijvingen	C	4		
+WAfsDaeDow	4199020	Doorberekende waardeveranderingen	C	4		
+WAfsDaeDve	4199030	Doorberekende verkoopresultaten	C	4		
+WBedHuiErf	4201010	Erfpacht	D	4		
+WBedHuiLee	4201020	Leefbaarheid	D	4		
+WBedHuiLas	4201030	Lasten servicecontracten	D	4		
+WBedHuiBeh	4201040	Betaalde huur	D	4		
+WBedHuiOhu	4201050	Ontvangen huursuppletie	D	4		
+WBedHuiHuw	4201060	Huurwaarde woongedeelte	D	4		
+WBedHuiOnt	4201070	Onderhoud terreinen	D	4		
+WBedHuiOng	4201080	Onderhoud gebouwen	D	4		
+WBedHuiSch	4201090	Schoonmaakkosten	D	4		
+WBedHuiSer	4201100	Servicekosten	D	4		
+WBedHuiGas	4201110	Gas	D	4		
+WBedHuiElk	4201120	Elektra	D	4		
+WBedHuiWat	4201130	Water	D	4		
+WBedHuiNed	4201140	Netdiensten	D	4		
+WBedHuiPre	4201150	Privé-gebruik energie	D	4		
+WBedHuiAoz	4201160	Assurantiepremies onroerende zaak	D	4		
+WBedHuiOnz	4201170	Onroerende zaakbelasting	D	4		
+WBedHuiMez	4201180	Milieuheffingen en zuiveringsleges	D	4		
+WBedHuiObh	4201190	Overige belastingen inzake huisvesting	D	4		
+WBedHuiOvh	4201200	Overige vaste huisvestingslasten	D	4		
+WBedHuiDrg	4201210	Dotatie reserve assurantie eigen risico gebouwen	D	4		
+WBedHuiVrg	4201220	Vrijval reserve assurantie eigen risico gebouwen	C	4		
+WBedHuiDvg	4201230	Dotatie voorziening groot onderhoud gebouwen	D	4		
+WBedHuiVgb	4201240	Vrijval voorziening groot onderhoud gebouwen	C	4		
+WBedHuiDkg	4201250	Dotatie kostenegalisatiereserve groot onderhoud gebouwen	D	4		
+WBedHuiVkg	4201260	Vrijval kostenegalisatiereserve groot onderhoud gebouwen	C	4		
+WBedHuiOhv	4201270	Overige huisvestingskosten	D	4		
+WBedHuiDoh	4201990	Doorberekende huisvestingskosten	C	4		
+WBedEemRoi	4202010	Reparatie en onderhoud inventaris	D	4		
+WBedEemOls	4202020	Operational leasing inventaris	D	4		
+WBedEemHui	4202030	Huur inventaris	D	4		
+WBedEemKai	4202040	Kleine aanschaffingen inventaris	D	4		
+WBedEemGsk	4202050	Gereedschapskosten	D	4		
+WBedEemDvi	4202060	Dotatie voorziening groot onderhoud inventaris	D	4		
+WBedEemVoi	4202070	Vrijval voorziening groot onderhoud inventaris	C	4		
+WBedEemDki	4202080	Dotatie kostenegalisatiereserve groot onderhoud inventaris	D	4		
+WBedEemVki	4202090	Vrijval kostenegalisatiereserve groot onderhoud inventaris	C	4		
+WBedEemOki	4202100	Overige kosten inventaris	D	4		
+WBedEemRom	4202110	Reparatie en onderhoud machines	D	4		
+WBedEemOlm	4202120	Operational leasing machines	D	4		
+WBedEemHum	4202130	Huur machines	D	4		
+WBedEemOme	4202140	Onderhoud machines en installaties	D	4		
+WBedEemBrm	4202150	Brandstof machines	D	4		
+WBedEemKam	4202160	Kleine aanschaffingen machines	D	4		
+WBedEemDvm	4202170	Dotatie voorziening groot onderhoud machines	D	4		
+WBedEemVgo	4202180	Vrijval voorziening groot onderhoud machines	C	4		
+WBedEemDkm	4202190	Dotatie kostenegalisatiereserve groot onderhoud machines	D	4		
+WBedEemVkm	4202200	Vrijval kostenegalisatiereserve groot onderhoud machines	C	4		
+WBedEemObm	4202210	Overige belastingen inzake exploitatie en machines	D	4		
+WBedEemOkm	4202220	Overige kosten machines	D	4		
+WBedEemWdd	4202230	Werk door derden	D	4		
+WBedEemDrm	4202240	Dotatie reserve assurantie eigen risico machines	D	4		
+WBedEemVrm	4202250	Vrijval reserve assurantie eigen risico machines	C	4		
+WBedEemAme	4202260	Assurantiepremie machines en inventaris	D	4		
+WBedEemVpm	4202270	Verpakkingsmaterialen	D	4		
+WBedEemOee	4202280	Overige exploitatie- en machinekosten	D	4		
+WBedEemDem	4202990	Doorberekende exploitatie- en machinekosten	C	4		
+WBedVkkRea	4203010	Reclame- en advertentiekosten	D	4		
+WBedVkkKos	4203020	Kosten sponsoring	D	4		
+WBedVkkBeu	4203030	Beurskosten	D	4		
+WBedVkkRel	4203040	Relatiegeschenken	D	4		
+WBedVkkKer	4203050	Kerstpakketten relaties	D	4		
+WBedVkkRep	4203060	Representatiekosten	D	4		
+WBedVkkRev	4203070	Reis- en verblijfkosten	D	4		
+WBedVkkEta	4203080	Etalagekosten	D	4		
+WBedVkkVrk	4203090	Vrachtkosten	D	4		
+WBedVkkInc	4203100	Incassokosten	D	4		
+WBedVkkKmz	4203110	Kilometervergoeding zakelijke reizen	D	4		
+WBedVkkKmw	4203120	Kilometervergoeding woon-werkverkeer	D	4		
+WBedVkkVkp	4203130	Verkoopprovisie	D	4		
+WBedVkkCom	4203140	Commissies	D	4		
+WBedVkkFra	4203150	Franchisekosten	D	4		
+WBedVkkDvd	4203160	Dotatie voorziening dubieuze debiteuren	D	4		
+WBedVkkAdd	4203170	Afboeking dubieuze debiteuren	D	4		
+WBedVkkDog	4203180	Dotatie garantievoorziening	D	4		
+WBedVkkVgv	4203190	Vrijval garantievoorziening	D	4		
+WBedVkkWeb	4203200	Websitekosten	D	4		
+WBedVkkObs	4203210	Overige belastingen inzake verkoopactiviteiten	D	4		
+WBedVkkOvr	4203220	Overige verkoopkosten	D	4		
+WBedVkkDbv	4203990	Doorberekende verkoopkosten	C	4		
+WBedAutBra	4204010	Brandstofkosten auto's	D	4		
+WBedAutRoa	4204020	Reparatie en onderhoud auto's	D	4		
+WBedAutAsa	4204030	Assurantiepremie auto's	D	4		
+WBedAutMot	4204040	Motorrijtuigenbelasting	D	4		
+WBedAutOpa	4204050	Operational leasing auto's	D	4		
+WBedAutBwl	4204060	Bijdrage werknemers leaseregeling	D	4		
+WBedAutPga	4204070	Privé-gebruik auto's	D	4		
+WBedAutBop	4204080	BTW op privé-gebruik auto's	D	4		
+WBedAutHua	4204090	Huur auto's	D	4		
+WBedAutKil	4204100	Kilometervergoeding	D	4		
+WBedAutBeb	4204110	Boetes en bekeuringen	D	4		
+WBedAutObv	4204120	Overige belastingen inzake vervoermiddelen	D	4		
+WBedAutDrv	4204130	Dotatie reserve assurantie eigen risico vervoermiddelen	D	4		
+WBedAutVrv	4204140	Vrijval reserve assurantie eigen risico vervoermiddelen	C	4		
+WBedAutDkv	4204150	Dotatie kostenegalisatiereserve groot onderhoud vervoermiddelen	D	4		
+WBedAutVkv	4204160	Vrijval kostenegalisatiereserve groot onderhoud vervoermiddelen	C	4		
+WBedAutDvv	4204170	Dotatie voorziening groot onderhoud vervoermiddelen	D	4		
+WBedAutVoa	4204180	Vrijval voorziening groot onderhoud vervoermiddelen	C	4		
+WBedAutPar	4204190	Parkeerkosten	D	4		
+WBedAutOak	4204200	Overige autokosten	D	4		
+WBedAutDau	4204990	Doorberekende autokosten	C	4		
+WBedTraBrr	4205010	Brandstofkosten transportmiddelen	D	4		
+WBedTraRot	4205020	Reparatie en onderhoud transportmiddelen	D	4		
+WBedTraAst	4205030	Assurantiepremie transportmiddelen	D	4		
+WBedTraMot	4205040	Motorrijtuigenbelasting	D	4		
+WBedTraOpt	4205050	Operational leasing transportmiddelen	D	4		
+WBedTraPgt	4205060	Privé-gebruik transportmiddelen	D	4		
+WBedTraBot	4205070	BTW op privé-gebruik transportmiddelen	D	4		
+WBedTraHut	4205080	Huur transportmiddelen	D	4		
+WBedTraObt	4205090	Overige belastingen inzake transportmiddelen	D	4		
+WBedTraDrt	4205100	Dotatie reserve assurantie eigen risico transportmiddelen	D	4		
+WBedTraVrt	4205110	Vrijval reserve assurantie eigen risico transportmiddelen	C	4		
+WBedTraDkt	4205120	Dotatie kostenegalisatiereserve groot onderhoud transportmiddelen	D	4		
+WBedTraVkt	4205130	Vrijval kostenegalisatiereserve groot onderhoud transportmiddelen	C	4		
+WBedTraDvt	4205140	Dotatie voorziening groot onderhoud transportmiddelen	D	4		
+WBedTraVot	4205150	Vrijval voorziening groot onderhoud transportmiddelen	C	4		
+WBedTraPar	4205160	Parkeerkosten	D	4		
+WBedTraOtr	4205170	Overige transportkosten	D	4		
+WBedTraDot	4205990	Doorberekende transportkosten	C	4		
+WBedKanKan	4206010	Kantoorbenodigdheden	D	4		
+WBedKanPor	4206020	Porti	D	4		
+WBedKanTef	4206030	Telefoon- en faxkosten	D	4		
+WBedKanPrt	4206040	Privé-gebruik telefoon	D	4		
+WBedKanDru	4206050	Drukwerk	D	4		
+WBedKanKak	4206060	Kleine aanschaffingen kantoorinventaris	D	4		
+WBedKanCea	4206070	Contributies en abonnementen	D	4		
+WBedKanVak	4206080	Vakliteratuur	D	4		
+WBedKanBoe	4206090	Boekhouding	D	4		
+WBedKanInc	4206100	Incassokosten	D	4		
+WBedKanKoa	4206110	Kosten automatisering	D	4		
+WBedKanAss	4206120	Assurantiepremie	D	4		
+WBedKanOba	4206130	Overige administratieve belastingen	D	4		
+WBedKanRok	4206140	Reparatie en onderhoud kantoorinventaris	D	4		
+WBedKanOka	4206150	Overige kantoorkosten	D	4		
+WBedKanDka	4206990	Doorberekende kantoorkosten	C	4		
+WBedOrgHol	4207010	Holdingkosten	D	4		
+WBedOrgDmf	4207020	Doorberekende management fee	D	4		
+WBedOrgOeo	4207030	Onderzoek en ontwikkeling	D	4		
+WBedOrgLgv	4207040	Leges / vergunningen	D	4		
+WBedOrgOct	4207050	Octrooi en licentiekosten	D	4		
+WBedOrgOok	4207060	Overige organisatiekosten	D	4		
+WBedOrgDoo	4207990	Doorberekende organisatiekosten	C	4		
+WBedAssBea	4208010	Bedrijfsaansprakelijkheidsverzekering	D	4		
+WBedAssOva	4208020	Overige assurantiepremies	D	4		
+WBedAssScb	4208030	Schadevergoedingen betaald	D	4		
+WBedAssSco	4208040	Schadevergoedingen ontvangen	D	4		
+WBedAssDas	4208990	Doorberekende assurantiekosten	C	4		
+WBedAeaAov	4209010	"Accountantskosten, onderzoek van de jaarrekening"	D	4		
+WBedAeaAac	4209020	"Accountantskosten, andere controleopdrachten"	D	4		
+WBedAeaAao	4209030	"Accountantskosten, adviesdiensten op fiscaal terrein"	D	4		
+WBedAeaAnc	4209040	"Accountantskosten, andere niet-controlediensten"	D	4		
+WBedAeaPda	4209050	Privé-gedeelte accountant	C	4		
+WBedAeaNot	4209060	Notariskosten	D	4		
+WBedAeaAej	4209070	Advokaat en juridisch advies	D	4		
+WBedAeaAdv	4209080	Overige advieskosten	D	4		
+WBedAeaDae	4209990	Doorberekende accountants- en advieskosten	C	4		
+WBedAdlHef	4210010	Heffingen	D	4		
+WBedAdlOvb	4210020	Overige belastingen	C	4		
+WBedAdlKav	4210030	Kasverschillen	D	4		
+WBedAdlBan	4210040	Bankkosten	D	4		
+WBedAdlVal	4210050	Valutaomrekeningsverschillen	D	4		
+WBedAdlBov	4210060	Boekingsverschillen	D	4		
+WBedAdlBet	4210070	Betalingsverschillen	D	4		
+WBedAdlBev	4210080	Boetes en verhogingen belastingen en premies sociale verzekeringen	D	4		
+WBedAdlNao	4210090	Naheffing omzetbelasting	D	4		
+WBedAdlNbo	4210100	Niet-verrekenbare BTW op kosten	D	4		
+WBedAdlBtk	4210110	BTW kleine-ondernemers-regeling	C	4		
+WBedAdlOad	4210120	Overige administratieve lasten	D	4		
+WBedAdlDal	4210990	Doorberekende administratieve lasten	C	4		
+WBedKofBad	4211010	Bestedingen aan doelstelling	D	4		
+WBedKofKef	4211020	Kosten eigen fondsenwerwing	D	4		
+WBedKofKgf	4211030	Kosten gezamenlijke fondsenwervingsacties	D	4		
+WBedKofKfv	4211040	Kosten fondsenwervingsacties van derden	D	4		
+WBedKofKvs	4211050	Kosten verkrijging subsidies overheden	D	4		
+WBedKseAbs	4212010	Afbouw stamrechtverplichting	D	4		
+WBedKseLiu	4212020	Lijfrente-uitkeringen	D	4		
+WBedDvrDra	4213010	Dotatie reserve assurantie eigen risico	D	4		
+WBedDvrVra	4213020	Vrijval reserve assurantie eigen risico	C	4		
+WBedDvrDke	4213030	Dotatie kostenegalisatiereserve	D	4		
+WBedDvrVke	4213040	Vrijval kostenegalisatiereserve	C	4		
+WBedDvrDex	4213050	Dotatie exportreserve	D	4		
+WBedDvrVex	4213060	Vrijval exportreserve	C	4		
+WBedDvrDrr	4213070	Dotatie risicoreserve	D	4		
+WBedDvrVrr	4213080	Vrijval risicoreserve	C	4		
+WBedDvrDhi	4213090	Dotatie herinvesteringsreserve	D	4		
+WBedDvrVhi	4213100	Vrijval herinvesteringsreserve	C	4		
+WBedDvrDtr	4213110	Dotatie terugkeerreserve	D	4		
+WBedDvrVtr	4213120	Vrijval terugkeerreserve	C	4		
+WBedDvrDfr	4213130	Dotatie overige fiscale reserves	D	4		
+WBedDvrVfr	4213140	Vrijval overige fiscale reserves	C	4		
+WBedDvvDvu	4214010	"Dotatie voorziening uit hoofde van claims, geschillen en rechtsgedingen"	D	4		
+WBedDvvDvh	4214020	Dotatie voorziening voor herstelkosten	D	4		
+WBedDvvDvo	4214030	Dotatie voorziening voor opruiming van aanwezige milieuvervuiling	D	4		
+WBedDvvDvc	4214040	Dotatie voorziening voor verlieslatende contracten	D	4		
+WBedDvvDvw	4214050	Dotatie voorziening voor verwijderingsverplichtingen	D	4		
+WBedDvvDov	4214060	Dotatie overige voorzieningen	D	4		
+WBedDvvVvu	4214070	"Vrijval voorziening uit hoofde van claims, geschillen en rechtsgedingen"	C	4		
+WBedDvvVvh	4214080	Vrijval voorziening voor herstelkosten	C	4		
+WBedDvvVvm	4214090	Vrijval voorziening voor opruiming van aanwezige milieuvervuiling	C	4		
+WBedDvvVvc	4214100	Vrijval voorziening voor verlieslatende contracten	C	4		
+WBedDvvVvw	4214110	Vrijval voorziening voor verwijderingsverplichtingen	C	4		
+WBedDvvVov	4214120	Vrijval overige voorzieningen	C	4		
+WBedAlkOal	4215010	Overige algemene kosten	D	4		
+WBedAlkDak	4215020	Doorberekende algemene kosten	C	4		
+WBedDokDok	4999010	Doorberekende kosten	C	4		
+WKprKvgKvg	7001010	Kosten van grond- en hulpstoffen	D	4		
+WKprKvpKvp	7002010	Kosten van personeel	D	4		
+WKprKuwKuw	7003010	Kosten uitbesteed werk en andere externe kosten	D	4		
+WKprKraKra	7004010	Kosten van rente en afschrijvingen	D	4		
+WKprInhInh	7005010	Inkoopwaarde handelsgoederen	D	4		
+WKprInpInp	7006010	Inkoopwaarde productiegoederen	D	4		
+WKprIebIeb	7007010	Inkoopkortingen en bonussen	D	4		
+WKprBtkBed	7008010	Betalingskorting debiteuren	D	4		
+WKprBtkBec	7008020	Betalingskorting crediteuren	D	4		
+WKprKitKit	7009010	Kostprijs intercompany transacties	D	4		
+WKprMuoMuo	7010010	Mutatie omzetvorderingen	D	4		
+WKprVomVom	7011010	Voorraadmutatie	D	4		
+WKprPrgPrg	7012010	Privé-gebruik goederen	C	4		
+WKprPrdPrd	7013010	Privé-gebruik diensten	C	4		
+WOmzNopOlh	8001010	Omzet leveringen belast met algemeen tarief	C	4		
+WOmzNopOlv	8001020	Omzet leveringen belast met verlaagd tarief	C	4		
+WOmzNopOlo	8001030	Omzet leveringen belast met overige tarieven	C	4		
+WOmzNopOpg	8001040	Omzet privégebruik goederen	C	4		
+WOmzNopOlg	8001050	Omzet leveringen belast met nultarief of niet bij u belast	C	4		
+WOmzNopOll	8001060	Omzet leveringen waarbij heffing is verlegd	C	4		
+WOmzNopOln	8001070	Omzet leveringen naar landen buiten EU	C	4		
+WOmzNopOli	8001080	Omzet leveringen in landen binnen EU	C	4		
+WOmzNopOla	8001090	Omzet leveringen installatie/afstandsverkopen binnen de EU	C	4		
+WOmzNopOlu	8001100	Omzet belaste leveringen uit landen buiten de EU	C	4		
+WOmzNopOle	8001110	Omzet belaste leveringen uit landen binnen EU	C	4		
+WOmzNopNon	8001120	"Netto-omzet, overboeking naar andere rubriek"	D	4		
+WOmzNohOlh	8002010	Omzet leveringen belast met algemeen tarief	C	4		
+WOmzNohOlv	8002020	Omzet leveringen belast met verlaagd tarief	C	4		
+WOmzNohOlo	8002030	Omzet leveringen belast met overige tarieven	C	4		
+WOmzNohOmr	8002040	Omzet leveringen margevoorraden	C	4		
+WOmzNohOpg	8002050	Omzet privégebruik goederen	C	4		
+WOmzNohOlg	8002060	Omzet leveringen belast met nultarief of niet bij u belast	C	4		
+WOmzNohOll	8002070	Omzet leveringen waarbij heffing is verlegd	C	4		
+WOmzNohOln	8002080	Omzet leveringen naar landen buiten EU	C	4		
+WOmzNohOli	8002090	Omzet leveringen in landen binnen EU	C	4		
+WOmzNohOla	8002100	Omzet leveringen installatie/afstandsverkopen binnen de EU	C	4		
+WOmzNohOlu	8002110	Omzet belaste leveringen uit landen buiten de EU	C	4		
+WOmzNohOle	8002120	Omzet belaste leveringen uit landen binnen EU	C	4		
+WOmzNohNon	8002130	"Netto-omzet, overboeking naar andere rubriek"	D	4		
+WOmzNodOdh	8003010	Omzet diensten belast met algemeen tarief	C	4		
+WOmzNodOdl	8003020	Omzet diensten belast met verlaagd tarief	C	4		
+WOmzNodOdo	8003030	Omzet diensten belast met overige tarieven	C	4		
+WOmzNodOpd	8003040	Omzet privégebruik diensten	C	4		
+WOmzNodOdg	8003050	Omzet diensten belast met nultarief of niet bij u belast	C	4		
+WOmzNodOdv	8003060	Omzet diensten waarbij heffing is verlegd	C	4		
+WOmzNodOdb	8003070	Omzet diensten naar landen buiten EU	C	4		
+WOmzNodOdi	8003080	Omzet diensten in landen binnen EU	C	4		
+WOmzNodOda	8003090	Omzet diensten  installatie/afstandsverkopen binnen de EU	C	4		
+WOmzNodOdu	8003100	Omzet belaste diensten uit landen buiten de EU	C	4		
+WOmzNodOde	8003110	Omzet belaste diensten uit landen binnen EU	C	4		
+WOmzNodNon	8003120	"Netto-omzet, overboeking naar andere rubriek"	D	4		
+WOmzNooNdr	8004010	"Netto-omzet, per opbrengstcategorie, rente"	C	4		
+WOmzNooNdy	8004020	"Netto-omzet, per opbrengstcategorie, royalty's"	C	4		
+WOmzNooNdd	8004030	"Netto-omzet, per opbrengstcategorie, dividenden"	C	4		
+WOmzNooNdo	8004040	"Netto-omzet, per opbrengstcategorie, overig"	C	4		
+WOmzNooNon	8004050	"Netto-omzet, overboeking naar andere rubriek"	D	4		
+WOmzOitOit	8005010	Omzet intercompany transacties	C	4		
+WOmzKebVek	8006010	Verleende kortingen	D	4		
+WOmzKebOmz	8006020	Omzetbonificaties	D	4		
+WOmzKebPrv	8006030	Provisies	D	4		
+WWivWgpWgp	8101010	Wijziging in voorraden gereed product	D	4		
+WWivWowWow	8102010	Wijziging in voorraden onderhanden werk	D	4		
+WWivWopWop	8103010	Wijziging in onderhanden projecten in opdracht van derden	D	4		
+WWivGpvGpe	8104010	Geactiveerde productie eigen bedrijf	C	4		
+WWivGpvPge	8104020	Privé gebruik eigen bedrijf	C	4		
+WOvbOnmOnm	8201010	Ontvangen managementvergoeding	C	4		
+WOvbOdpOdp	8202010	Ontvangen doorbelasting personeelskosten	C	4		
+WOvbBueCol	8203010	Collecten	C	4		
+WOvbBueDeg	8203020	Donaties en giften	C	4		
+WOvbBueCtb	8203030	Contributies	C	4		
+WOvbBueSpo	8203040	Sponsoring	C	4		
+WOvbBueNal	8203050	Nalatenschappen	C	4		
+WOvbBueEle	8203060	Eigen loterijen en prijsvragen	C	4		
+WOvbBueVeg	8203070	Verkoop goederen	C	4		
+WOvbBueObu	8203080	Overige baten uit fondsenwerving	C	4		
+WOvbBugCol	8204010	Collecten	C	4		
+WOvbBugDeg	8204020	Donaties en giften	C	4		
+WOvbBugCtb	8204030	Contributies	C	4		
+WOvbBugSpo	8204040	Sponsoring	C	4		
+WOvbBugNal	8204050	Nalatenschappen	C	4		
+WOvbBugEle	8204060	Eigen loterijen en prijsvragen	C	4		
+WOvbBugVeg	8204070	Verkoop goederen	C	4		
+WOvbBugObu	8204080	Overige baten uit fondsenwerving	C	4		
+WOvbBuaCol	8205010	Collecten	C	4		
+WOvbBuaDeg	8205020	Donaties en giften	C	4		
+WOvbBuaCtb	8205030	Contributies	C	4		
+WOvbBuaSpo	8205040	Sponsoring	C	4		
+WOvbBuaNal	8205050	Nalatenschappen	C	4		
+WOvbBuaEle	8205060	Eigen loterijen en prijsvragen	C	4		
+WOvbBuaVeg	8205070	Verkoop goederen	C	4		
+WOvbBuaObu	8205080	Overige baten uit fondsenwerving	C	4		
+WOvbVezUib	8206010	Uitkering bedrijfsschadeverzekering	C	4		
+WOvbVezOvu	8206020	Overige verzekeringsuitkeringen	C	4		
+WOvbOrsOel	8207010	Overheidssubsidies exclusief loonkostensubsidies	C	4		
+WOvbOrsOsa	8207020	Ontvangen loonsubsidies en afdrachtrestituties	C	4		
+WOvbOrsEeo	8207030	Export- en overige restituties en subsidies ingevolge EU-regelingen	C	4		
+WOvbOrsOsu	8207040	Overige subsidies	C	4		
+WOvbHuoHuo	8208010	Huurontvangsten	C	4		
+WOvbOpsOps	8209010	Opbrengsten servicecontracten	C	4		
+WOvbNvvNnv	8210010	Netto verkoopresultaat vastgoedportefeuille	C	4		
+WOvbCclCcl	8211010	"College-, cursus-, les- en examengelden"	C	4		
+WOvbBwiBwi	8212010	Baten werk in opdracht van derden	C	4		
+WOvbOvoOvo	8213010	Overige opbrengsten	C	4		
+WVheVuhVuh	8301010	Vrijval uit herwaarderingsreserve	C	4		
+WVheVeIVeI	8302010	Vrijval egalisatierekening IPR	C	4		
+WVheVoeVoe	8303010	Vrijval overige egalisatierekeningen	C	4		
+WFbeRofRig	8401010	Rentebaten vorderingen groepsmaatschappijen binnenland	C	4		
+WFbeRofRug	8401020	Rentebaten vorderingen groepsmaatschappijen buitenland	C	4		
+WFbeRofRvp	8401030	Rentebaten vorderingen participanten en overige deelnemingen	C	4		
+WFbeRofRid	8401040	Rentebaten vorderingen op deelnemingen binnenland	C	4		
+WFbeRofRud	8401050	Rentebaten vorderingen op deelnemingen buitenland	C	4		
+WFbeRofRva	8401060	Rentebaten vorderingen op aandeelhouders	C	4		
+WFbeRofRvd	8401070	Rentebaten vorderingen op directie	C	4		
+WFbeRofRov	8401080	Rentebaten overige vorderingen	C	4		
+WFbeRofDiv	8401090	Dividend effecten	C	4		
+WFbeRofOoe	8401100	Opbrengst overige effecten	C	4		
+WFbeRofRor	8401110	Rentebaten overige rekeningen-courant	C	4		
+WFbeRlmOdr	8402010	Ontvangen depositorente	C	4		
+WFbeRlmObr	8402020	Ontvangen bankrente	C	4		
+WFbeOrbRbb	8403010	Rentebaten belastingen	C	4		
+WFbeOrbAre	8403020	Andere rentebaten en soortgelijke opbrengsten	C	4		
+WFbeRlsRal	8404010	Rentelasten achtergestelde leningen	D	4		
+WFbeRlsRob	8404020	Rentelasten obligatieleningen	D	4		
+WFbeRlsRol	8404030	Rentelasten onderhandse leningen	D	4		
+WFbeRlsRhl	8404040	Rentelasten hypethecaire leningen	D	4		
+WFbeRlsRle	8404050	Rentelasten overige leningen	D	4		
+WFbeRlsRef	8404060	Rentelasten financieringen	D	4		
+WFbeRlsRlv	8404070	Rentelasten leaseverplichtingen	D	4		
+WFbeRlsRgi	8404080	Rentelasten schulden groepsmaatschappijen binnenland	D	4		
+WFbeRlsRgu	8404090	Rentelasten schulden groepsmaatschappijen buitenland	D	4		
+WFbeRlsRsp	8404100	Rentelasten schulden participanten en overige deelnemingen	D	4		
+WFbeRlsRdi	8404110	Rentelasten schulden aan deelnemingen binnenland	D	4		
+WFbeRlsRdu	8404120	Rentelasten schulden aan deelnemingen buitenland	D	4		
+WFbeRlsRsa	8404130	Rentelasten schulden aan aandeelhouders	D	4		
+WFbeRlsRsd	8404140	Rentelasten schulden aan directie	D	4		
+WFbeBwvDee	8405010	Deelnemingen	D	4		
+WFbeBwvLvo	8405020	Langlopende vorderingen op deelnemingen	D	4		
+WFbeBwvRcm	8405030	Rekening-courant met deelnemingen	D	4		
+WFbeBwvOvv	8405040	Overige vorderingen	D	4		
+WFbeBwvOef	8405050	Overige effecten	D	4		
+WFbeBwvRca	8405060	Rekening-courant aandeelhouder	D	4		
+WFbeBwvRcd	8405070	Rekening-courant directie	D	4		
+WFbeBwvKov	8405080	Kortlopende vorderingen	D	4		
+WFbeBwvLim	8405090	Liquide middelen	D	4		
+WFbeOrlRpe	8406010	Rentelasten pensioenverplichtingen	D	4		
+WFbeOrlRli	8406020	Rentelasten lijfrenteverplichtingen	D	4		
+WFbeOrlRlb	8406030	Rentelasten belastingen	D	4		
+WFbeOrlRos	8406040	Rentelasten overige schulden	D	4		
+WFbeWisWis	8407010	Wisselkoersverschillen	D	4		
+WFbeKvbKvb	8408010	Kosten van beleggingen	D	4		
+WFbeKbaKba	8409010	Kosten van beheer en administratie	D	4		
+WFbeRedAwd	8410010	Aandeel in winst (verlies) van ondernemingen waarin wordt deelgenomen	C	4		
+WFbeRedDvn	8410020	Dotatie voorziening in verband met deelnemingen	D	4		
+WFbeRedVvi	8410030	Vrijval voorziening in verband met deelnemingen	D	4		
+WFbeRedAwb	8410040	Aandeel in winst (verlies) bestuurders	D	4		
+WFbeDfbDrb	8499010	Doorberekende rentebaten	C	4		
+WFbeDfbDrl	8499020	Doorberekende rentelasten	C	4		
+WFbeDfbDof	8499030	Doorberekende overige financiële baten en lasten	C	4		
+WBbeBubBub	8501010	Buitengewone baten	C	4		
+WBbeBulBul	8502010	Buitengewone lasten	D	4		
+WAadRavRav	9001010	Resultaat aandeel van derden	D	4		
+WBelBgrBgr	9002010	Belastingen gewoon resultaat	D	4		
+WBelBbrBbr	9003010	Belastingen buitengewoon resultaat	D	4		
+WBelVblVbl	9004010	Vrijval belastinglatentie	C	4		
+WBelMfoMfo	9005010	Mutatie fiscale oudedagsreserve	D	4		
+WNerNewNew	9999010	Nettoresultaat na belastingen	C	4		

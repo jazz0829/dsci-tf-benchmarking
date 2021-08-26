@@ -1,0 +1,145 @@
+{
+  "StartAt": "Start - Notify Slack",
+  "States": {
+    "Start - Notify Slack": {
+      "Type": "Task",
+      "Resource": "${dsci-sagemaker-slack-lambda-arn}",
+      "InputPath": "$.inputs.slack_message_start_training",
+      "ResultPath": "$.results.slack_message_start_training",
+      "Next": "Run EMR Job"
+    },
+    "Run EMR Job": {
+      "Type": "Task",
+      "Resource": "${dsci-benchmark-run-emr-job-arn}",
+      "InputPath": "$.inputs.emr_data_preparation",
+      "ResultPath": "$.results.data_collection_emr_job_info",
+      "Next": "Wait for EMR Data Collection to complete"
+    },
+    "Wait for EMR Data Collection to complete": {
+      "Type": "Wait",
+      "Seconds": 1320,
+      "Next": "Get status of training data collection"
+    },
+    "Get status of training data collection": {
+      "Type": "Task",
+      "Resource": "${dsci-sagemaker-emr-get-status-lambda-arn}",
+      "InputPath": "$.results.data_collection_emr_job_info",
+      "ResultPath": "$.results.completed_data_collection_job",
+      "Next": "Is data collection completed?"
+    },
+    "Is data collection completed?": {
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Variable": "$.results.completed_data_collection_job.status",
+          "StringEquals": "TERMINATED",
+          "Next": "Increase DynamoDB table Write capacity"
+        },
+        {
+          "Variable": "$.results.completed_data_collection_job.status",
+          "StringEquals": "TERMINATED_WITH_ERRORS",
+          "Next": "Fail - Notify Slack"
+        }
+      ],
+      "Default": "Wait for EMR Data Collection to complete"
+    },
+    "Increase DynamoDB table Write capacity": {
+      "Type": "Task",
+      "Resource": "${dsci-update-dynamodb-capacity-lambda-arn}",
+      "InputPath": "$.inputs.increase_table_write_capacity",
+      "ResultPath": "$.results.increase_table_write_capacity",
+      "Next": "Parquet to DynamoDB"
+    },
+    "Parquet to DynamoDB": {
+      "Type": "Parallel",
+      "Next": "Validate new data",
+      "InputPath": "$",
+      "OutputPath": "$",
+      "ResultPath": "$.parallel_parquet_to_dynamodb",
+      "Branches": [
+        {
+          "StartAt": "Marketing",
+          "States": {
+            "Marketing": {
+              "Type": "Task",
+              "Resource": "${dsci-benchmark-marketing-lambda-dynamo-arn}",
+              "InputPath": "$",
+              "OutputPath": "$",
+              "ResultPath": "$.parquet_to_dynamodb_mkt",
+              "End": true
+            }
+          }
+        },
+        {
+          "StartAt": "ExactOnline",
+          "States": {
+            "ExactOnline": {
+              "Type": "Task",
+              "Resource": "${dsci-benchmark-eol-lambda-dynamo-arn}",
+              "InputPath": "$",
+              "OutputPath": "$",
+              "ResultPath": "$.parquet_to_dynamodb_eol",
+              "End": true
+            }
+          }
+        }
+      ]
+    },
+    "Validate new data": {
+      "Type": "Choice",
+      "Choices": [
+        {
+          "And":
+          [
+            {
+              "Variable": "$.parallel_parquet_to_dynamodb[0].parquet_to_dynamodb_mkt.Success",
+              "BooleanEquals": true
+            },
+            {
+              "Variable": "$.parallel_parquet_to_dynamodb[1].parquet_to_dynamodb_eol.Success",
+              "BooleanEquals": true
+            }
+          ],
+          "Next":"Flush Cache Api Gateway"
+        }
+      ],
+      "Default":"Fail - Notify Slack"
+    },
+    "Flush Cache Api Gateway":{
+      "Type": "Task",
+      "Resource": "${dsci-flush-cache-api-gateway}",
+      "InputPath": "$.inputs.apis_to_be_flushed",
+      "ResultPath": "$.results.apis_to_be_flushed",
+      "Next": "Integration test for Benchmark API"
+    },
+    "Integration test for Benchmark API":{
+      "Type": "Task",
+      "Resource": "${dsci-benchmark-invoke-api}",
+      "InputPath": "$",
+      "ResultPath": "$.results.invoke_benchmark_api",
+      "Next": "Decrease DynamoDB table Write capacity"
+    },
+    "Decrease DynamoDB table Write capacity": {
+      "Type": "Task",
+      "Resource": "${dsci-update-dynamodb-capacity-lambda-arn}",
+      "InputPath": "$.inputs.decrease_table_write_capacity",
+      "ResultPath": "$.results.decrease_table_write_capacity",
+      "Next": "Finish - Notify Slack"
+    },
+    "Finish - Notify Slack": {
+      "Type": "Task",
+      "Resource": "${dsci-sagemaker-slack-lambda-arn}",
+      "InputPath": "$.inputs.slack_message_finish",
+      "End": true
+    },
+    "Fail - Notify Slack": {
+      "Type": "Task",
+      "Resource": "${dsci-sagemaker-slack-lambda-arn}",
+      "InputPath": "$.inputs.slack_message_fail",
+      "Next": "Failed"
+    },
+    "Failed": {
+      "Type": "Fail"
+    }
+  }
+}

@@ -1,0 +1,415 @@
+version: 2
+jobs:
+  feat2dev_plan:
+    docker:
+      - image: 055468286804.dkr.ecr.eu-west-1.amazonaws.com/tfm-cicd:latest
+        aws_auth:
+          aws_access_key_id: $access_key_ecr  
+          aws_secret_access_key: $secret_key_ecr
+    environment: 
+      WKSPC: "dd"
+    steps:
+      - checkout
+      - run: 
+          name: Get CircleCI Scripts
+          command: |
+            chmod +x .circleci/circleci.sh 
+            .circleci/circleci.sh
+      - run:
+          name: export aws creds
+          command: |
+            chmod +x .circleci/export_aws.sh
+            .circleci/export_aws.sh
+      - run: 
+          name: init
+          command: |
+            terraform init -input=false
+            if [ $? != "0" ]; then exit $?; fi
+      - run: 
+          name: lint-validate
+          command: |
+            chmod +x .circleci/fmt.sh
+            # chmod +x .circleci/lint.sh
+            chmod +x .circleci/validate.sh
+            .circleci/fmt.sh
+            # .circleci/lint.sh
+            .circleci/validate.sh
+      - run: mkdir -p plans
+      - run: terraform workspace select $WKSPC || terraform workspace new $WKSPC
+      - run: terraform plan -var-file=env/${WKSPC}.tfvars -input=false | landscape
+  dev_plan:
+    docker:
+      - image: 055468286804.dkr.ecr.eu-west-1.amazonaws.com/tfm-cicd:latest
+        aws_auth:
+          aws_access_key_id: $access_key_ecr  
+          aws_secret_access_key: $secret_key_ecr
+    environment: 
+      WKSPC: "dd"
+    steps:
+      - checkout
+      - run: 
+          name: Get CircleCI Scripts
+          command: |
+            chmod +x .circleci/circleci.sh 
+            .circleci/circleci.sh
+      - run:
+          name: export aws creds
+          command: |
+            chmod +x .circleci/export_aws.sh
+            .circleci/export_aws.sh
+      - run: 
+          name: init
+          command: |
+            terraform init -input=false
+            if [ $? != "0" ]; then exit $?; fi
+      - run: 
+          name: lint-validate
+          command: |
+            chmod +x .circleci/fmt.sh
+            # chmod +x .circleci/lint.sh
+            chmod +x .circleci/validate.sh
+            .circleci/fmt.sh
+            # .circleci/lint.sh
+            .circleci/validate.sh
+      - run: mkdir -p plans
+      - run: terraform workspace select $WKSPC || terraform workspace new $WKSPC
+      - run: terraform plan -var-file=env/${WKSPC}.tfvars -input=false -out=plans/tfm.plan | landscape
+      - persist_to_workspace:
+          root: plans
+          paths:
+            - tfm.plan
+            - .terraform/*
+  dev_apply:
+    docker:
+      - image: 055468286804.dkr.ecr.eu-west-1.amazonaws.com/tfm-cicd:latest
+        aws_auth:
+          aws_access_key_id: $access_key_ecr  
+          aws_secret_access_key: $secret_key_ecr
+    environment: 
+      WKSPC: "dd"
+    steps:
+      - checkout
+      - run:
+          name: export aws creds
+          command: |
+            chmod +x .circleci/export_aws.sh
+            .circleci/export_aws.sh
+      - run: 
+          name: init
+          command: |
+            terraform init -input=false
+            if [ $? != "0" ]; then exit $?; fi
+      - run: mkdir -p plans
+      - run: terraform workspace select $WKSPC || terraform workspace new $WKSPC
+      - attach_workspace:
+          at: plans
+      - run: terraform plan -var-file=env/${WKSPC}.tfvars -input=false
+      - run: terraform apply -input=false -auto-approve plans/tfm.plan
+  dev2uat_plan:
+    docker:
+      - image: 055468286804.dkr.ecr.eu-west-1.amazonaws.com/tfm-cicd:latest
+        aws_auth:
+          aws_access_key_id: $access_key_ecr  
+          aws_secret_access_key: $secret_key_ecr
+    environment: 
+      WKSPC: "dt"
+    steps:
+      - checkout
+      - run: 
+          name: Get CircleCI Scripts
+          command: |
+            chmod +x .circleci/circleci.sh 
+            .circleci/circleci.sh
+      - run:
+          name: export aws creds
+          command: |
+            chmod +x .circleci/export_aws.sh
+            .circleci/export_aws.sh
+      - run: 
+          name: init
+          command: |
+            terraform init -input=false
+            if [ $? != "0" ]; then exit $?; fi
+      - run: 
+          name: lint-validate
+          command: |
+            chmod +x .circleci/fmt.sh
+            # chmod +x .circleci/lint.sh
+            chmod +x .circleci/validate.sh
+            .circleci/fmt.sh
+            # .circleci/lint.sh
+            .circleci/validate.sh
+      - run: mkdir -p plans
+      - run: terraform workspace select $WKSPC || terraform workspace new $WKSPC
+      - run: terraform plan -var-file=env/${WKSPC}.tfvars -input=false -out=plans/tfm.plan | landscape
+  uat_plan:
+    docker:
+      - image: 055468286804.dkr.ecr.eu-west-1.amazonaws.com/tfm-cicd:latest
+        aws_auth:
+          aws_access_key_id: $access_key_ecr  
+          aws_secret_access_key: $secret_key_ecr
+    environment: 
+      WKSPC: "dt"
+    steps:
+      - checkout
+      - run: 
+          name: Get CircleCI Scripts
+          command: |
+            chmod +x .circleci/circleci.sh 
+            .circleci/circleci.sh
+      - run:
+          name: export aws creds
+          command: |
+            chmod +x .circleci/export_aws.sh
+            .circleci/export_aws.sh
+      - run: 
+          name: init
+          command: |
+            terraform init -input=false
+            if [ $? != "0" ]; then exit $?; fi
+      - run: 
+          name: lint-validate
+          command: |
+            chmod +x .circleci/fmt.sh
+            # chmod +x .circleci/lint.sh
+            chmod +x .circleci/validate.sh
+            .circleci/fmt.sh
+            # .circleci/lint.sh
+            .circleci/validate.sh
+      - run: mkdir -p plans
+      - run: terraform workspace select $WKSPC || terraform workspace new $WKSPC
+      - run: terraform plan -var-file=env/${WKSPC}.tfvars -input=false -out=plans/tfm.plan | landscape
+      - persist_to_workspace:
+          root: plans
+          paths:
+            - tfm.plan
+            - .terraform/*
+  uat_apply:
+    docker:
+      - image: 055468286804.dkr.ecr.eu-west-1.amazonaws.com/tfm-cicd:latest
+        aws_auth:
+          aws_access_key_id: $access_key_ecr  
+          aws_secret_access_key: $secret_key_ecr
+    environment: 
+      WKSPC: "dt"
+    steps:
+      - checkout
+      - run:
+          name: export aws creds
+          command: |
+            chmod +x .circleci/export_aws.sh
+            .circleci/export_aws.sh
+      - run: 
+          name: init
+          command: |
+            terraform init -input=false
+            if [ $? != "0" ]; then exit $?; fi
+      - run: mkdir -p plans
+      - run: terraform workspace select $WKSPC || terraform workspace new $WKSPC
+      - attach_workspace:
+          at: plans
+      - run: terraform plan -var-file=env/${WKSPC}.tfvars -input=false
+      - run: terraform apply -input=false -auto-approve plans/tfm.plan
+  uat2prd_plan:
+    docker:
+      - image: 055468286804.dkr.ecr.eu-west-1.amazonaws.com/tfm-cicd:latest
+        aws_auth:
+          aws_access_key_id: $access_key_ecr  
+          aws_secret_access_key: $secret_key_ecr
+    environment: 
+      WKSPC: "dp"
+    steps:
+      - checkout
+      - run: 
+          name: Get CircleCI Scripts
+          command: |
+            chmod +x .circleci/circleci.sh 
+            .circleci/circleci.sh
+      - run:
+          name: export aws creds
+          command: |
+            chmod +x .circleci/export_aws.sh
+            .circleci/export_aws.sh
+      - run: 
+          name: init
+          command: |
+            terraform init -input=false
+            if [ $? != "0" ]; then exit $?; fi
+      - run: 
+          name: lint-validate
+          command: |
+            chmod +x .circleci/fmt.sh
+            # chmod +x .circleci/lint.sh
+            chmod +x .circleci/validate.sh
+            .circleci/fmt.sh
+            # .circleci/lint.sh
+            .circleci/validate.sh
+      - run: mkdir -p plans
+      - run: terraform workspace select $WKSPC || terraform workspace new $WKSPC
+      - run: terraform plan -var-file=env/${WKSPC}.tfvars -input=false -out=plans/tfm.plan | landscape
+  prd_plan:
+    docker:
+      - image: 055468286804.dkr.ecr.eu-west-1.amazonaws.com/tfm-cicd:latest
+        aws_auth:
+          aws_access_key_id: $access_key_ecr  
+          aws_secret_access_key: $secret_key_ecr
+    environment: 
+      WKSPC: "dp"
+    steps:
+      - checkout
+      - run: 
+          name: Get CircleCI Scripts
+          command: |
+            chmod +x .circleci/circleci.sh 
+            .circleci/circleci.sh
+      - run:
+          name: export aws creds
+          command: |
+            chmod +x .circleci/export_aws.sh
+            .circleci/export_aws.sh
+      - run: 
+          name: init
+          command: |
+            terraform init -input=false
+            if [ $? != "0" ]; then exit $?; fi
+      - run: 
+          name: lint-validate
+          command: |
+            chmod +x .circleci/fmt.sh
+            # chmod +x .circleci/lint.sh
+            chmod +x .circleci/validate.sh
+            .circleci/fmt.sh
+            # .circleci/lint.sh
+            .circleci/validate.sh
+      - run: mkdir -p plans
+      - run: terraform workspace select $WKSPC || terraform workspace new $WKSPC
+      - run: terraform plan -var-file=env/${WKSPC}.tfvars -input=false -out=plans/tfm.plan | landscape
+      - persist_to_workspace:
+          root: plans
+          paths:
+            - tfm.plan
+            - .terraform/*          
+  prd_apply:
+    docker:
+      - image: 055468286804.dkr.ecr.eu-west-1.amazonaws.com/tfm-cicd:latest
+        aws_auth:
+          aws_access_key_id: $access_key_ecr  
+          aws_secret_access_key: $secret_key_ecr
+    environment: 
+      WKSPC: "dp"
+    steps:
+      - checkout
+      - run:
+          name: export aws creds
+          command: |
+            chmod +x .circleci/export_aws.sh
+            .circleci/export_aws.sh
+      - run: 
+          name: init
+          command: |
+            terraform init -input=false
+            if [ $? != "0" ]; then exit $?; fi
+      - run: mkdir -p plans
+      - run: terraform workspace select $WKSPC || terraform workspace new $WKSPC
+      - attach_workspace:
+          at: plans
+      - run: terraform plan -var-file=env/${WKSPC}.tfvars -input=false
+      - run: terraform apply -input=false -auto-approve plans/tfm.plan
+workflows:
+  version: 2
+  feat2dev:
+    jobs:
+      - feat2dev_plan:
+          context: terraform
+          filters:
+            branches:
+              ignore: 
+                - master
+                - uat
+                - dev    
+      - dev_plan:
+          context: terraform
+          filters: 
+            branches:
+              only: dev
+              ignore: 
+                - master
+                - uat   
+      - dev_apply:
+          requires: 
+            - dev_plan
+          context: terraform
+          filters: 
+            branches:
+              only: dev
+              ignore: 
+                - master
+                - uat
+  dev2uat:
+    jobs:
+      - dev2uat_plan:
+          context: terraform
+          filters:
+            branches:
+              only: dev  
+              ignore: 
+                - master
+                - uat
+                
+      - uat_plan:
+          context: terraform
+          filters:
+            branches:
+              only: uat   
+              ignore: 
+                - master
+                - dev         
+      - uat_apply:
+          requires: 
+            - uat_plan
+          context: terraform
+          filters:
+            branches:
+              only: uat
+              ignore: 
+                - master
+                - dev  
+  uat2prd:
+    jobs:
+    - uat2prd_plan:
+        context: terraform
+        filters:
+          branches:
+            only: uat
+            ignore: 
+              - master
+              - dev
+    - prd_plan:
+        context: terraform
+        filters:
+          branches:
+            only: master
+            ignore: 
+              - uat
+              - dev
+    - prd_hold:
+        type: approval
+        requires:
+          - prd_plan
+        context: terraform
+        filters:
+          branches:
+            only: master
+            ignore: 
+              - uat
+              - dev
+    - prd_apply:
+        requires: 
+          - prd_hold
+        context: terraform
+        filters:
+          branches:
+            only: master
+            ignore: 
+              - uat
+              - dev

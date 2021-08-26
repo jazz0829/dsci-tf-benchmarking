@@ -1,0 +1,272 @@
+{
+    "inputs": {
+        "slack_message_start_training": {
+            "message": "Started Benchmarking"
+        },
+        "slack_message_finish": {
+            "message": "Done processing Benchmarking data"
+        },
+        "slack_message_fail": {
+            "message": "Benchmarking failed, no new set of data created"
+        },
+        "emr_data_preparation": {
+            "params": {
+                "Name": "Benchmark",
+                "LogUri": "${emr_log_output}",
+                "ReleaseLabel": "emr-5.24.1",
+                "Applications": [
+                    {
+                        "Name": "Spark"
+                    },
+                    {
+                        "Name": "Ganglia"
+                    },
+                    {
+                        "Name": "Livy"
+                    }
+                ],
+                "Instances": {
+                    "InstanceGroups": [
+                        {
+                            "Name": "Master nodes",
+                            "Market": "ON_DEMAND",
+                            "InstanceRole": "MASTER",
+                            "InstanceType": "${emr_master_node_instance_type}",
+                            "InstanceCount": ${emr_master_node_instance_count
+                            },
+                            "EbsConfiguration": {
+                                "EbsBlockDeviceConfigs": [
+                                    {
+                                        "VolumeSpecification": {
+                                            "SizeInGB": 150,
+                                            "VolumeType": "gp2"
+                                        },
+                                        "VolumesPerInstance": 1
+                                    }
+                                ],
+                                "EbsOptimized": true
+                            }
+                        },
+                        {
+                            "Name": "Slave nodes",
+                            "Market": "ON_DEMAND",
+                            "InstanceRole": "CORE",
+                            "InstanceType": "${emr_core_node_instance_type}",
+                            "InstanceCount": ${emr_core_node_instance_count
+                            },
+                            "EbsConfiguration": {
+                                "EbsBlockDeviceConfigs": [
+                                    {
+                                        "VolumeSpecification": {
+                                            "SizeInGB": 150,
+                                            "VolumeType": "gp2"
+                                        },
+                                        "VolumesPerInstance": 1
+                                    }
+                                ],
+                                "EbsOptimized": true
+                            }
+                        }
+                    ],
+                    "KeepJobFlowAliveWhenNoSteps": false,
+                    "TerminationProtected": false,
+                    "Ec2SubnetId": "${ec2_subnet_id}"
+                },
+                "Steps": [
+                    {
+                        "Name": "benchmark ETL",
+                        "ActionOnFailure": "TERMINATE_CLUSTER",
+                        "HadoopJarStep": {
+                            "Jar": "command-runner.jar",
+                            "Args": [
+                                "spark-submit",
+                                "--deploy-mode",
+                                "cluster",
+                                "--executor-memory",
+                                "39G",
+                                "--executor-cores",
+                                "5",
+                                "--driver-memory",
+                                "4G",
+                                "--num-executors",
+                                "17",
+                                "${emr_benchmark_raw_script}",
+                                "-b",
+                                "${dsci_benchmark_bucket_name}"
+                            ]
+                        }
+                    },
+                    {
+                        "Name": "benchmark ETL",
+                        "ActionOnFailure": "TERMINATE_CLUSTER",
+                        "HadoopJarStep": {
+                            "Jar": "command-runner.jar",
+                            "Args": [
+                                "spark-submit",
+                                "--deploy-mode",
+                                "cluster",
+                                "--executor-memory",
+                                "39G",
+                                "--executor-cores",
+                                "5",
+                                "--driver-memory",
+                                "4G",
+                                "--num-executors",
+                                "17",
+                                "${emr_benchmark_division_script}",
+                                "-b",
+                                "${dsci_benchmark_bucket_name}"
+                            ]
+                        }
+                    },
+                    {
+                        "Name": "benchmark ETL",
+                        "ActionOnFailure": "TERMINATE_CLUSTER",
+                        "HadoopJarStep": {
+                            "Jar": "command-runner.jar",
+                            "Args": [
+                                "spark-submit",
+                                "--deploy-mode",
+                                "cluster",
+                                "--executor-memory",
+                                "39G",
+                                "--executor-cores",
+                                "5",
+                                "--driver-memory",
+                                "4G",
+                                "--num-executors",
+                                "17",
+                                "${emr_benchmark_aggregation_script}",
+                                "-b",
+                                "${dsci_benchmark_bucket_name}"
+                            ]
+                        }
+                    },
+                    {
+                        "Name": "benchmark ETL",
+                        "ActionOnFailure": "TERMINATE_CLUSTER",
+                        "HadoopJarStep": {
+                            "Jar": "command-runner.jar",
+                            "Args": [
+                                "spark-submit",
+                                "--deploy-mode",
+                                "cluster",
+                                "--executor-memory",
+                                "39G",
+                                "--executor-cores",
+                                "5",
+                                "--driver-memory",
+                                "4G",
+                                "--num-executors",
+                                "17",
+                                "${emr_benchmark_elements_script}",
+                                "-o",
+                                "${dsci_benchmark_bucket_name}"
+                            ]
+                        }
+                    },
+                    {
+                        "Name": "benchmark ETL",
+                        "ActionOnFailure": "TERMINATE_CLUSTER",
+                        "HadoopJarStep": {
+                            "Jar": "command-runner.jar",
+                            "Args": [
+                                "spark-submit",
+                                "--deploy-mode",
+                                "cluster",
+                                "--executor-memory",
+                                "39G",
+                                "--executor-cores",
+                                "5",
+                                "--driver-memory",
+                                "4G",
+                                "--num-executors",
+                                "17",
+                                "${emr_benchmark_eol_division_script}",
+                                "-o",
+                                "${dsci_benchmark_bucket_name}"
+                            ]
+                        }
+                    },
+                    {
+                        "Name": "benchmark ETL",
+                        "ActionOnFailure": "TERMINATE_CLUSTER",
+                        "HadoopJarStep": {
+                            "Jar": "command-runner.jar",
+                            "Args": [
+                                "spark-submit",
+                                "--deploy-mode",
+                                "cluster",
+                                "--executor-memory",
+                                "39G",
+                                "--executor-cores",
+                                "5",
+                                "--driver-memory",
+                                "4G",
+                                "--num-executors",
+                                "17",
+                                "${emr_benchmark_eol_aggregation_script}",
+                                "-o",
+                                "${dsci_benchmark_bucket_name}"
+                            ]
+                        }
+                    }
+                ],
+                "BootstrapActions": [
+                    {
+                        "Name": "Install dependency",
+                        "ScriptBootstrapAction": {
+                            "Path": "${emr_install_dependencies_script}"
+                        }
+                    }
+                ],
+                "ScaleDownBehavior": "TERMINATE_AT_TASK_COMPLETION",
+                "VisibleToAllUsers": true,
+                "JobFlowRole": "EMR_EC2_DefaultRole",
+                "ServiceRole": "EMR_DefaultRole",
+                "Tags": [
+                    {
+                        "Key": "Project",
+                        "Value": "dsci-benchmark"
+                    }
+                ]
+            }
+        },
+        "increase_table_write_capacity": {
+            "tables": [
+                {
+                    "TableName": "${dynamodb_eol_table_name}",
+                    "WriteCapacityUnits": "${high_write_capacity_units}"
+                },
+                {
+                    "TableName": "${dynamodb_marketing_table_name}",
+                    "WriteCapacityUnits": "${high_write_capacity_units}"
+                }
+            ]
+        },
+        "decrease_table_write_capacity": {
+            "tables": [
+                {
+                    "TableName": "${dynamodb_eol_table_name}",
+                    "WriteCapacityUnits": "${low_write_capacity_units}"
+                },
+                {
+                    "TableName": "${dynamodb_marketing_table_name}",
+                    "WriteCapacityUnits": "${low_write_capacity_units}"
+                }
+            ]
+        },
+        "apis_to_be_flushed": {
+            "apis": [
+                {
+                    "api_name": "${api_id_marketing}",
+                    "stage": "${stage_marketing}"
+                },
+                {
+                    "api_name": "${api_id_eol}",
+                    "stage": "${stage_eol}"
+                }
+            ]
+        }
+    }
+}
